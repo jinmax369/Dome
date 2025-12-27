@@ -1,0 +1,198 @@
+2025-11-25T08:35:01.9583042+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2025-11-25T08:35:02.0428189+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-11-25T08:35:02.0440742+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-11-25T08:35:02.0446117+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-11-25T08:35:02.0976566+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-11-25T08:35:02.1420494+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+127.0.0.1:443 <=> 127.0.0.1:444
+
+2025-11-25T08:35:02.1447645+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+::1:443 <=> ::1:444
+
+2025-11-25T08:35:03.4509559+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-11-25T08:35:11.9257812+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-25T08:35:14.7787690+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 10720.5222 ms
+
+2025-11-25T08:35:23.5006931+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 8718.5156 ms
+
+2025-11-25T08:35:24.4611594+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md responded 200 in 388.5856 ms
+
+2025-11-25T08:35:24.6362880+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md.minisig responded 200 in 172.529 ms
+
+2025-11-25T08:35:30.0496233+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.112.22]
+
+2025-11-25T08:35:31.8360080+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:80->[20.205.243.166, 140.82.116.4]
+
+2025-11-25T08:35:33.5412820+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/futures_quant_frame.git/info/refs responded 502 in 21227.7336 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage )
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken )
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-11-25T08:35:33.5431705+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.76, 20.189.172.73, 20.189.172.33]
+
+2025-11-25T08:35:35.4232642+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.213.50, 13.107.246.74, 13.107.246.50]
+
+2025-11-25T08:35:37.2384011+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.213.50, 13.107.246.74, 13.107.246.43]
+
+2025-11-25T08:35:39.5309988+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.15, 40.90.133.97, 40.90.136.3]
+
+2025-11-25T08:35:41.7688501+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[2.23.167.192, 2.20.255.146, 23.217.11.91]
+
+2025-11-25T08:35:43.6509506+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-25T08:35:46.3396830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[140.82.112.3]
+
+2025-11-25T08:35:47.0475910+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-25T08:35:48.9411442+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.240.10]
+
+2025-11-25T08:35:51.0100618+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-25T08:35:52.9633831+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22]
+
+2025-11-25T08:35:55.4132494+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-11-25T08:35:57.9186646+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-11-25T08:35:59.8724503+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-25T08:36:01.4075994+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/futures_quant_frame.git/info/refs responded 401 in 943.6607 ms
+
+2025-11-25T08:36:01.8512251+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cdnjs.cloudflare.com:443->[104.17.24.14, 104.17.25.14]
+
+2025-11-25T08:36:03.8336835+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5]
+
+2025-11-25T08:36:05.5225821+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/futures_quant_frame.git/info/refs responded 200 in 338.3612 ms
+
+2025-11-25T08:36:05.8787604+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.216.51.56, 16.182.35.96, 54.231.134.160]
+
+2025-11-25T08:36:06.2364659+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/jinmax369/futures_quant_frame.git/git-receive-pack responded 200 in 491.936 ms
+
+2025-11-25T08:36:08.3262124+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+sendvsfeedback2.azurewebsites.net:443->[40.112.143.140]
+
+2025-11-25T08:36:10.4974079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.23.155.240, 2.23.155.232, 23.192.230.12]
+
+2025-11-25T08:36:12.5777947+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-25T08:36:15.2043554+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-25T08:36:17.5885408+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-25T08:36:19.3699956+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.213.50, 13.107.246.74, 13.107.246.50]
+
+2025-11-25T08:36:20.9234474+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-25T08:36:21.4833640+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-25T08:36:23.5850019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.113.26, 140.82.113.25]
+

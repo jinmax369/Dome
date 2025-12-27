@@ -1,0 +1,64 @@
+2025-12-27T18:51:05.8572143+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2025-12-27T18:51:05.9586804+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-12-27T18:51:05.9599957+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-12-27T18:51:05.9606621+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-12-27T18:51:06.0843287+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-12-27T18:51:06.1394233+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+127.0.0.1:443 <=> 127.0.0.1:444
+
+2025-12-27T18:51:06.1417431+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+::1:443 <=> ::1:444
+
+2025-12-27T18:51:09.1620322+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-12-27T18:51:21.1239024+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 11435.3621 ms
+
+2025-12-27T18:51:24.4709430+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.161.152, 16.15.187.113, 52.217.126.144]
+
+2025-12-27T18:51:30.0939446+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 8967.0862 ms
+
+2025-12-27T18:51:31.0076966+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md responded 200 in 499.4316 ms
+
+2025-12-27T18:51:31.2451147+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md.minisig responded 200 in 235.6865 ms
+
+2025-12-27T18:51:37.0842635+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+edge-consumer-static.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-27T18:51:37.2774364+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.50, 13.107.246.74, 13.107.213.50]
+
+2025-12-27T18:51:40.6579689+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+

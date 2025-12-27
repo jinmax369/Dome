@@ -1,0 +1,238 @@
+[
+  {
+    "host": "bruceqi93.github.io",
+    "port": 443
+  },
+  {
+    "host": "collector.github.com",
+    "port": 443
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "symbols.nuget.org",
+    "port": 443
+  },
+  {
+    "host": "edge-consumer-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "www.github.com",
+    "port": 443
+  },
+  {
+    "host": "learnopengl-cn.github.io",
+    "port": 443
+  },
+  {
+    "host": "login.live.com",
+    "port": 443
+  },
+  {
+    "host": "avatars.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "assetripper.github.io",
+    "port": 443
+  },
+  {
+    "host": "sendvsfeedback2.azurewebsites.net",
+    "port": 443
+  },
+  {
+    "host": "binstar-cio-packages-prod.s3.amazonaws.com",
+    "port": 443
+  },
+  {
+    "host": "az700632.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "objects-origin.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "vscode.cdn.azure.cn",
+    "port": 443
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "api.vstsusers.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "fonts.geekzu.org",
+    "port": 443
+  },
+  {
+    "host": "challenges.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 80
+  },
+  {
+    "host": "private-user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "marketplace.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "91maketop.github.io",
+    "port": 443
+  },
+  {
+    "host": "copilot-telemetry.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "support-assets.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "odc.officeapps.live.com",
+    "port": 443
+  },
+  {
+    "host": "spsprodeus27.vssps.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "fpt.live.com",
+    "port": 443
+  },
+  {
+    "host": "app.vssps.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "fp-afd.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "dc.services.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "cn.gravatar.com",
+    "port": 443
+  },
+  {
+    "host": "user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "edge-cloud-resource-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "aadcdn.msftauth.net",
+    "port": 443
+  },
+  {
+    "host": "www.v2ex.com",
+    "port": 443
+  },
+  {
+    "host": "fp-afd-nocache-ccp.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "teofilobd.github.io",
+    "port": 443
+  },
+  {
+    "host": "aadcdn.msauth.net",
+    "port": 443
+  },
+  {
+    "host": "userprodeus23.vstsusers.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "login.microsoftonline.com",
+    "port": 443
+  },
+  {
+    "host": "fp-afd-nocache.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "s3.amazonaws.com",
+    "port": 443
+  },
+  {
+    "host": "support.github.com",
+    "port": 443
+  },
+  {
+    "host": "management.azure.com",
+    "port": 443
+  },
+  {
+    "host": "education.github.com",
+    "port": 443
+  },
+  {
+    "host": "xpaywalletcdn-prod.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "alive.github.com",
+    "port": 443
+  },
+  {
+    "host": "docs.github.com",
+    "port": 443
+  },
+  {
+    "host": "viewscreen.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "westus-0.in.applicationinsights.azure.com",
+    "port": 443
+  },
+  {
+    "host": "az667904.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "cdnjs.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "camo.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "storage.live.com",
+    "port": 443
+  },
+  {
+    "host": "dev.azure.com",
+    "port": 443
+  }
+]

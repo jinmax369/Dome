@@ -1,0 +1,3802 @@
+2025-11-13T02:17:53.0208209+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2025-11-13T02:17:53.0791130+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-11-13T02:17:53.0808212+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-11-13T02:17:53.0814392+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-11-13T02:17:53.1227411+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-11-13T02:17:53.1725142+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+127.0.0.1:443 <=> 127.0.0.1:444
+
+2025-11-13T02:17:53.1753350+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+::1:443 <=> ::1:444
+
+2025-11-13T02:18:00.7472395+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:01.1395272+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.113.5]
+
+2025-11-13T02:18:03.4976449+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:03.6792425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.240.10]
+
+2025-11-13T02:18:05.8747992+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T02:18:07.9530014+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:08.5879685+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T02:18:10.4596153+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:11.3180809+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.22]
+
+2025-11-13T02:18:14.0285242+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.41.187.31, 23.41.187.33, 23.56.109.140]
+
+2025-11-13T02:18:15.0465652+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:17.8361376+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T02:18:20.0104467+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax/SkinWeightBrushPro.git/info/refs responded 401 in 1748.3897 ms
+
+2025-11-13T02:18:20.2314875+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.239, 192.0.80.242]
+
+2025-11-13T02:18:21.0090736+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax/SkinWeightBrushPro.git/info/refs responded 200 in 354.3814 ms
+
+2025-11-13T02:18:21.9244943+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:22.2471431+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T02:18:22.3514988+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/jinmax/SkinWeightBrushPro.git/git-receive-pack responded 200 in 743.3361 ms
+
+2025-11-13T02:18:24.4444024+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.143.16, 16.15.178.86, 3.5.16.71]
+
+2025-11-13T02:18:26.3734642+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+91maketop.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:27.1304138+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T02:18:29.6625747+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T02:18:32.1048331+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166]
+
+2025-11-13T02:18:35.3040868+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.41.187.17, 23.41.187.24, 184.28.81.230]
+
+2025-11-13T02:18:38.1668149+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.76, 20.189.172.73]
+
+2025-11-13T02:18:40.0799808+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.25]
+
+2025-11-13T02:18:41.3202064+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:41.7124524+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4]
+
+2025-11-13T02:18:44.2568698+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T02:18:46.3298147+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T02:18:47.8408157+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:48.4056926+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T02:18:49.9719872+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:18:50.0710156+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T02:18:52.0658027+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T02:18:53.9557877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T02:18:56.1100729+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.21]
+
+2025-11-13T02:19:01.4409128+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.50.88.244]
+
+2025-11-13T02:19:03.6412901+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T02:19:05.7401184+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:06.0831066+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.164, 20.190.144.166, 40.126.35.20]
+
+2025-11-13T02:19:07.7257309+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:07.8510550+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T02:19:09.5210983+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:09.8458714+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T02:19:12.0592906+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.113.22]
+
+2025-11-13T02:19:13.6292178+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+learnopengl-cn.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:14.2344266+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T02:19:15.8579249+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:16.0759698+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.138, 20.190.144.136, 20.190.144.163]
+
+2025-11-13T02:19:21.5799178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.113.5, 20.87.245.6]
+
+2025-11-13T02:19:25.8745278+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.25, 140.82.113.25]
+
+2025-11-13T02:19:28.7719449+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.22]
+
+2025-11-13T02:19:35.1978339+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.50.88.233]
+
+2025-11-13T02:19:35.5549296+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:46.2564502+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.41.187.17, 23.41.187.24, 2.23.231.94]
+
+2025-11-13T02:19:47.7888982+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:19:48.3106792+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.41.187.31, 2.23.231.86, 23.41.187.33]
+
+2025-11-13T02:19:51.6728290+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.143.16, 54.231.202.216, 16.15.178.86]
+
+2025-11-13T02:19:55.1328983+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:00.4388781+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.112.22, 140.82.114.21]
+
+2025-11-13T02:20:02.0934591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.25, 140.82.113.26]
+
+2025-11-13T02:20:03.3829674+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.22, 140.82.114.21]
+
+2025-11-13T02:20:06.5996761+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:06.8758486+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.213.196.212]
+
+2025-11-13T02:20:12.7006818+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 20.190.144.136, 20.190.144.164]
+
+2025-11-13T02:20:14.3579338+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.217.167.208, 52.217.143.16, 54.231.202.216]
+
+2025-11-13T02:20:22.3472055+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.113.21]
+
+2025-11-13T02:20:26.9457528+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:28.2478750+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:28.6214994+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.203.145, 52.217.167.208, 52.217.107.46]
+
+2025-11-13T02:20:33.4309589+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.114.4]
+
+2025-11-13T02:20:37.8454667+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.112.22, 140.82.113.21]
+
+2025-11-13T02:20:38.9237514+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:40.4810997+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T02:20:47.5053705+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.4]
+
+2025-11-13T02:21:12.4592011+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22, 140.82.114.22]
+
+2025-11-13T02:21:15.2550698+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.21, 140.82.112.22, 140.82.114.22]
+
+2025-11-13T02:21:19.9044890+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.41.187.17, 95.100.181.33, 23.41.187.24]
+
+2025-11-13T02:21:23.1320582+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 40.126.35.84, 20.190.144.136]
+
+2025-11-13T02:21:24.6916221+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.203.145, 16.182.71.176, 52.217.167.208]
+
+2025-11-13T23:32:00.1384316+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2025-11-13T23:32:00.2345933+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-11-13T23:32:00.2360829+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-11-13T23:32:00.2370134+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-11-13T23:32:00.2939828+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-11-13T23:32:00.3366772+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+127.0.0.1:443 <=> 127.0.0.1:444
+
+2025-11-13T23:32:00.3389975+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+::1:443 <=> ::1:444
+
+2025-11-13T23:32:01.9077334+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:32:07.1468772+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:32:14.8761498+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 12464.8893 ms
+
+2025-11-13T23:32:19.3322005+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:32:23.9333415+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 9053.4666 ms
+
+2025-11-13T23:32:28.0542887+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:28.2345033+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax/SkinWeightBrushPro.git/info/refs responded 502 in 20807.3045 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage )
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken )
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-11-13T23:32:28.7250669+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:29.0925639+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.21]
+
+2025-11-13T23:32:34.7811930+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:36.1509715+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.114.25, 140.82.112.26]
+
+2025-11-13T23:32:38.0438185+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:39.4124910+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T23:32:40.8024626+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax/SkinWeightBrushPro.git/info/refs responded 401 in 6046.9208 ms
+
+2025-11-13T23:32:41.5952577+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:41.6613104+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax/SkinWeightBrushPro.git/info/refs responded 200 in 352.6802 ms
+
+2025-11-13T23:32:41.7600308+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.240.10]
+
+2025-11-13T23:32:42.4487353+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/jinmax/SkinWeightBrushPro.git/git-receive-pack responded 200 in 550.9751 ms
+
+2025-11-13T23:32:44.4371226+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+91maketop.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:45.0060830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:32:46.8380087+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:47.4098236+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.205.165.9, 23.205.165.14, 23.46.155.180]
+
+2025-11-13T23:32:50.0225887+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:50.3898730+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.217.87, 52.217.130.152, 54.231.168.208]
+
+2025-11-13T23:32:52.3845127+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:52.9391851+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T23:32:58.6237750+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:32:59.4754383+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.109.154, 185.199.111.154]
+
+2025-11-13T23:33:05.4668539+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:05.5634851+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.109.154, 185.199.111.154]
+
+2025-11-13T23:33:06.7718607+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:07.0925511+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:12.2036800+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.239, 192.0.80.240, 192.0.80.242]
+
+2025-11-13T23:33:17.3167182+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.112.4]
+
+2025-11-13T23:33:19.5678577+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:19.8607203+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[140.82.121.3]
+
+2025-11-13T23:33:22.4215986+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:22.5581169+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T23:33:24.7263837+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:25.0665477+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.50.88.233]
+
+2025-11-13T23:33:32.5275345+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:33.1199826+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.205.165.20, 23.205.165.9, 23.46.155.178]
+
+2025-11-13T23:33:34.9965684+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:35.4413604+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:33:43.1576177+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.22]
+
+2025-11-13T23:33:45.2926864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.110.154, 185.199.109.154, 185.199.111.154]
+
+2025-11-13T23:33:47.9183339+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:48.2822121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.129, 40.126.35.80, 40.126.35.85]
+
+2025-11-13T23:33:50.4795191+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:50.7433803+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5]
+
+2025-11-13T23:33:57.6183912+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+bruceqi93.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:33:58.1738907+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:34:02.7651467+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:02.9936185+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.139, 40.126.35.86, 40.126.35.84]
+
+2025-11-13T23:34:05.3978959+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:06.0154912+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:34:08.7878356+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-11-13T23:34:08.7883745+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-11-13T23:34:09.4503765+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 534.8806 ms
+
+2025-11-13T23:34:09.5902550+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 599.2487 ms
+
+2025-11-13T23:34:10.2259403+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 400 in 364.7981 ms
+
+2025-11-13T23:34:10.3914143+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 530.2427 ms
+
+2025-11-13T23:34:10.6751582+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/discovery/instance responded 200 in 144.0056 ms
+
+2025-11-13T23:34:10.9503982+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 400 in 173.1868 ms
+
+2025-11-13T23:34:11.2835639+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+app.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:34:12.4680005+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 401 in 976.0949 ms
+
+2025-11-13T23:34:16.8494626+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:17.0881332+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.76]
+
+2025-11-13T23:34:17.3333634+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/organizations/oauth2/authorize responded 200 in 344.4354 ms
+
+2025-11-13T23:34:17.6619406+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/oauth20_authorize.srf responded 200 in 301.936 ms
+
+2025-11-13T23:34:17.8867434+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/common/canary/msaidpvalidatepost responded 200 in 208.9769 ms
+
+2025-11-13T23:34:18.1997184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/oauth20_authorize.srf responded 200 in 304.5398 ms
+
+2025-11-13T23:34:19.0513487+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetExperimentAssignments.srf responded 200 in 257.8271 ms
+
+2025-11-13T23:34:19.1388704+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+fpt.live.com->127.0.0.1
+
+2025-11-13T23:34:20.9161670+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://fpt.live.com/ responded 200 in 1530.4057 ms
+
+2025-11-13T23:34:21.2001139+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://fpt.live.com/Images/Clear.PNG responded 200 in 192.6227 ms
+
+2025-11-13T23:34:21.9764552+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize responded 302 in 350.5621 ms
+
+2025-11-13T23:34:22.5691088+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.live.com/oauth20_authorize.srf responded 200 in 589.7821 ms
+
+2025-11-13T23:34:23.3379727+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+teofilobd.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:23.6656663+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:34:25.4725237+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:25.5841275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.22]
+
+2025-11-13T23:34:26.8169136+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:26.9113280+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:34:28.9580771+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dev.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:29.0617389+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:34:34.6192827+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:34:34.7175809+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:34:46.9015001+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fpt.live.com:443->[20.51.15.234]
+
+2025-11-13T23:34:53.9722969+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.21, 140.82.112.22]
+
+2025-11-13T23:35:00.9149684+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.76, 20.189.172.73]
+
+2025-11-13T23:35:05.4437168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.114.25, 140.82.113.25]
+
+2025-11-13T23:35:14.2733910+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetOneTimeCode.srf responded 200 in 357.4853 ms
+
+2025-11-13T23:35:14.7215742+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 316.0655 ms
+
+2025-11-13T23:35:16.1095498+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 309.6971 ms
+
+2025-11-13T23:35:17.5369952+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 332.9272 ms
+
+2025-11-13T23:35:18.9855057+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 385.2361 ms
+
+2025-11-13T23:35:20.3228046+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 318.6235 ms
+
+2025-11-13T23:35:21.7187474+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 307.2992 ms
+
+2025-11-13T23:35:23.1998543+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 391.5259 ms
+
+2025-11-13T23:35:24.6768866+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 369.6637 ms
+
+2025-11-13T23:35:26.0698555+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 371.5134 ms
+
+2025-11-13T23:35:26.0792133+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:35:27.4921429+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 384.5161 ms
+
+2025-11-13T23:35:28.8156048+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 319.4321 ms
+
+2025-11-13T23:35:29.3034779+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/ppsecure/post.srf responded 200 in 470.7838 ms
+
+2025-11-13T23:35:30.1418036+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/common/federation/oauth2msa responded 200 in 802.1259 ms
+
+2025-11-13T23:35:30.1470578+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+aadcdn.msftauth.net->127.0.0.1
+
+2025-11-13T23:35:30.2692880+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.16.2.202, 2.16.2.200, 95.101.78.8]
+
+2025-11-13T23:35:31.8443771+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/settings-desktop.min_rrscdhi0_fqmlp3il-nwyg2.css responded 200 in 1448.0274 ms
+
+2025-11-13T23:35:32.0166622+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/aad.login.min_qkvvroec9fawj4keaovasw2.js responded 200 in 1723.8941 ms
+
+2025-11-13T23:35:32.0346130+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/ui-light.min_y6kevniabpxvxhzk1csrqa2.css responded 200 in 1740.4548 ms
+
+2025-11-13T23:35:32.0801862+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[2.23.155.121, 2.23.155.155, 23.205.165.20]
+
+2025-11-13T23:35:32.2328027+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/jquery.3.5.min_dc940oomzau4rsu8qesnvg2.js responded 200 in 1816.7544 ms
+
+2025-11-13T23:35:32.4630101+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 165.7479 ms
+
+2025-11-13T23:35:32.5871675+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/winjs.min_xbqxlyz8mtr0sugw90p_mg2.js responded 200 in 330.6684 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-11-13T23:35:32.5891246+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/sso/progress responded 502 in 115.6227 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-11-13T23:35:32.9290012+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 253.2172 ms
+
+2025-11-13T23:35:33.1913053+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 400 in 312.8236 ms
+
+2025-11-13T23:35:34.1197706+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/authorize responded 200 in 387.7604 ms
+
+2025-11-13T23:35:34.4750015+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/oauth20_authorize.srf responded 200 in 338.6783 ms
+
+2025-11-13T23:35:34.6940977+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/common/canary/msaidpvalidatepost responded 200 in 209.0007 ms
+
+2025-11-13T23:35:35.0535977+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/oauth20_authorize.srf responded 200 in 352.5094 ms
+
+2025-11-13T23:35:35.4872480+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetExperimentAssignments.srf responded 200 in 299.4736 ms
+
+2025-11-13T23:35:36.4576618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://fpt.live.com/ responded 200 in 931.023 ms
+
+2025-11-13T23:35:36.6923068+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://fpt.live.com/Images/Clear.PNG responded 200 in 188.5695 ms
+
+2025-11-13T23:35:37.1401700+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize responded 302 in 77.4452 ms
+
+2025-11-13T23:35:37.4944804+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.live.com/oauth20_authorize.srf responded 200 in 351.8314 ms
+
+2025-11-13T23:35:40.2433700+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.191.219, 16.15.217.87, 16.15.187.71]
+
+2025-11-13T23:35:42.7288851+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+aadcdn.msftauth.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:35:43.2778872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[95.101.116.72, 95.101.116.85, 173.222.105.30]
+
+2025-11-13T23:35:52.7587646+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.50.88.233]
+
+2025-11-13T23:35:55.1022529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.116.6]
+
+2025-11-13T23:36:13.1414219+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.113.26, 140.82.114.25]
+
+2025-11-13T23:36:16.6667289+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetOneTimeCode.srf responded 200 in 488.5302 ms
+
+2025-11-13T23:36:17.0977265+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 293.4194 ms
+
+2025-11-13T23:36:18.3744718+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 271.1247 ms
+
+2025-11-13T23:36:19.6870141+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 277.2253 ms
+
+2025-11-13T23:36:20.9683487+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 272.9824 ms
+
+2025-11-13T23:36:22.2817800+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 274.0002 ms
+
+2025-11-13T23:36:23.5726977+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 270.1317 ms
+
+2025-11-13T23:36:24.8787931+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 269.8625 ms
+
+2025-11-13T23:36:24.9699324+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[27.122.144.17, 27.122.144.8, 2.16.2.202]
+
+2025-11-13T23:36:26.1835227+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 279.0019 ms
+
+2025-11-13T23:36:26.7879913+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[2.16.2.202, 23.208.31.169, 23.208.31.189]
+
+2025-11-13T23:36:27.4646976+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/GetSessionState.srf responded 200 in 269.2512 ms
+
+2025-11-13T23:36:28.0239949+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/ppsecure/post.srf responded 200 in 535.7548 ms
+
+2025-11-13T23:36:28.9089124+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/common/federation/oauth2msa responded 200 in 847.1915 ms
+
+2025-11-13T23:36:29.0830223+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 200 in 97.1936 ms
+
+2025-11-13T23:36:29.2422824+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/sso/progress responded 502 in 138.1147 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-11-13T23:36:29.2430931+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/winjs.min_xbqxlyz8mtr0sugw90p_mg2.js responded 502 in 274.3479 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-11-13T23:36:29.6653186+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 232.0257 ms
+
+2025-11-13T23:36:29.6770090+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.216.153, 16.15.181.238, 16.15.191.219]
+
+2025-11-13T23:36:29.7158258+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 384.9242 ms
+
+2025-11-13T23:36:29.8259670+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.vstsusers.visualstudio.com->127.0.0.1
+
+2025-11-13T23:36:30.4704604+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 458.015 ms
+
+2025-11-13T23:36:30.8083641+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles responded 201 in 321.9415 ms
+
+2025-11-13T23:36:31.3990374+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Avatar responded 200 in 577.5363 ms
+
+2025-11-13T23:36:31.9902950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 200 in 324.6884 ms
+
+2025-11-13T23:36:32.3658971+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 200 in 175.9247 ms
+
+2025-11-13T23:36:32.4334616+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+management.azure.com->127.0.0.1
+
+2025-11-13T23:36:32.6645441+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fpt.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:36:32.9462953+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://management.azure.com/tenants responded 200 in 364.0932 ms
+
+2025-11-13T23:36:33.0177942+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fpt.live.com:443->[20.51.15.234, 20.62.60.180]
+
+2025-11-13T23:36:33.3269736+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/oauth2/token responded 200 in 99.4831 ms
+
+2025-11-13T23:36:33.4879249+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 77.3671 ms
+
+2025-11-13T23:36:33.9406224+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Accounts responded 200 in 428.0873 ms
+
+2025-11-13T23:36:34.3692741+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 78.0616 ms
+
+2025-11-13T23:36:34.7027438+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 342.6831 ms
+
+2025-11-13T23:36:34.8396571+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.26.156.215, 140.82.112.4]
+
+2025-11-13T23:36:34.8934642+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://app.vssps.visualstudio.com/_apis/Token/SessionTokens responded 200 in 513.2701 ms
+
+2025-11-13T23:36:34.9964542+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 73.7772 ms
+
+2025-11-13T23:36:35.2775298+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 239.5359 ms
+
+2025-11-13T23:36:35.3237802+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 394.1552 ms
+
+2025-11-13T23:36:35.5734616+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 281.0156 ms
+
+2025-11-13T23:36:35.8285174+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 237.3603 ms
+
+2025-11-13T23:36:36.0876253+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 240.1699 ms
+
+2025-11-13T23:36:36.4281914+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Avatar responded 200 in 242.5517 ms
+
+2025-11-13T23:36:36.5766552+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Avatar responded 200 in 389.799 ms
+
+2025-11-13T23:36:36.6383413+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 354.5488 ms
+
+2025-11-13T23:36:36.6526751+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 453.175 ms
+
+2025-11-13T23:36:37.3089355+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 393.9954 ms
+
+2025-11-13T23:36:38.1309196+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 335.8819 ms
+
+2025-11-13T23:36:38.5603559+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14_PreferredProfile;PreferredProfile responded 204 in 326.8033 ms
+
+2025-11-13T23:36:44.8264023+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+dev.azure.com->127.0.0.1
+
+2025-11-13T23:36:45.5649537+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://dev.azure.com/site/sha responded 302 in 526.4793 ms
+
+2025-11-13T23:36:45.5664083+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+spsprodeus27.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:36:46.1887844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://spsprodeus27.vssps.visualstudio.com/_signin responded 203 in 525.069 ms
+
+2025-11-13T23:36:46.8633743+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.50.88.241]
+
+2025-11-13T23:36:47.9933576+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.114.22]
+
+2025-11-13T23:36:50.0690853+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.112.21, 140.82.112.22]
+
+2025-11-13T23:36:50.3008179+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 81.1941 ms
+
+2025-11-13T23:36:50.6949082+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 377.6489 ms
+
+2025-11-13T23:36:50.9453377+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 241.8214 ms
+
+2025-11-13T23:36:51.1919585+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 237.7928 ms
+
+2025-11-13T23:36:51.4362278+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 236.5055 ms
+
+2025-11-13T23:36:51.7493002+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 299.9752 ms
+
+2025-11-13T23:36:55.3800529+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14;Fonts.Settings responded 204 in 315.7021 ms
+
+2025-11-13T23:36:55.7001659+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 303.3288 ms
+
+2025-11-13T23:36:56.4513181+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 20.190.148.164, 40.126.35.129]
+
+2025-11-13T23:36:58.0446277+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.216.153, 16.15.181.238, 16.15.176.180]
+
+2025-11-13T23:37:01.5083186+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+marketplace.visualstudio.com->127.0.0.1
+
+2025-11-13T23:37:02.1744387+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery responded 200 in 492.8612 ms
+
+2025-11-13T23:37:04.2511396+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:37:05.7156816+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 404 in 698.3308 ms
+
+2025-11-13T23:37:09.9342247+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PATCH https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 204 in 247.8435 ms
+
+2025-11-13T23:37:10.2597440+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 307.0436 ms
+
+2025-11-13T23:37:16.7205464+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[203.80.97.56, 203.80.97.107, 2.16.2.202]
+
+2025-11-13T23:37:18.2534096+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.216.153, 16.15.218.179, 16.15.181.238]
+
+2025-11-13T23:37:36.2333453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.26, 140.82.114.26]
+
+2025-11-13T23:37:38.3868373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.23.155.50, 95.101.116.72, 95.101.116.85]
+
+2025-11-13T23:37:48.5833649+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.26.156.215, 140.82.112.4]
+
+2025-11-13T23:37:54.6016195+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.111.133]
+
+2025-11-13T23:37:54.6026375+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.109.133, 185.199.108.133, 185.199.111.133]
+
+2025-11-13T23:37:54.9436151+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.111.133]
+
+2025-11-13T23:37:57.9091617+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.21, 140.82.112.22]
+
+2025-11-13T23:38:07.8017928+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.218.4, 16.15.216.153, 16.15.218.179]
+
+2025-11-13T23:38:10.8889061+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/discovery/instance responded 200 in 428.9479 ms
+
+2025-11-13T23:38:11.0845385+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 610.8664 ms
+
+2025-11-13T23:38:11.4836007+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 404 in 705.302 ms
+
+2025-11-13T23:38:11.5058768+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 287.685 ms
+
+2025-11-13T23:38:11.9073995+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 243.5452 ms
+
+2025-11-13T23:38:12.0247821+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 511.1086 ms
+
+2025-11-13T23:38:12.1855754+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 242.3769 ms
+
+2025-11-13T23:38:12.4412610+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 235.7625 ms
+
+2025-11-13T23:38:12.6906848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 238.0017 ms
+
+2025-11-13T23:38:12.9542575+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 241.7674 ms
+
+2025-11-13T23:38:13.2022276+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 338.7014 ms
+
+2025-11-13T23:38:14.6977182+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 77.0043 ms
+
+2025-11-13T23:38:14.8358654+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14_PreferredProfile;PreferredProfile responded 204 in 332.2124 ms
+
+2025-11-13T23:38:15.0557141+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 297.1542 ms
+
+2025-11-13T23:38:15.0725444+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 357.9537 ms
+
+2025-11-13T23:38:15.0811876+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[140.82.121.3, 140.82.121.4]
+
+2025-11-13T23:38:15.3256263+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 245.3631 ms
+
+2025-11-13T23:38:15.5643176+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 233.5936 ms
+
+2025-11-13T23:38:15.8072655+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 237.943 ms
+
+2025-11-13T23:38:16.1355444+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 301.6125 ms
+
+2025-11-13T23:38:22.3134068+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.26.156.215]
+
+2025-11-13T23:38:24.5247976+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-11-13T23:38:24.5294198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-11-13T23:38:30.2928088+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-11-13T23:38:40.4897748+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.50.88.233]
+
+2025-11-13T23:38:45.5718763+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 274.2062 ms
+
+2025-11-13T23:38:51.9532119+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.112.21]
+
+2025-11-13T23:39:01.4767190+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 20.190.148.164, 40.126.35.19]
+
+2025-11-13T23:39:03.6881877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 40.126.35.19, 40.126.35.145]
+
+2025-11-13T23:39:05.2222752+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.218.4, 16.15.216.153, 16.15.176.216]
+
+2025-11-13T23:39:10.3408025+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2025-11-13T23:39:12.1288815+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:39:13.6541163+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:39:15.1085613+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:39:15.5369626+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:39:17.3846105+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.75.16, 150.171.76.16]
+
+2025-11-13T23:39:20.7346725+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.76, 20.189.172.73, 20.189.172.32]
+
+2025-11-13T23:39:26.4608246+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.112.21]
+
+2025-11-13T23:39:28.2222594+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.21, 140.82.112.21]
+
+2025-11-13T23:39:36.5521037+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 20.190.144.161, 20.190.148.164]
+
+2025-11-13T23:40:03.0703373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.22.151.181, 2.23.155.50, 95.101.116.72]
+
+2025-11-13T23:40:15.9765947+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.3, 140.82.116.4]
+
+2025-11-13T23:40:17.6206307+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.76, 20.189.172.32]
+
+2025-11-13T23:40:24.5111514+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.218.4, 16.15.216.153, 16.15.186.179]
+
+2025-11-13T23:40:28.7509832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 20.26.156.210]
+
+2025-11-13T23:40:32.8405932+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://dev.azure.com/site/sha responded 302 in 650.7719 ms
+
+2025-11-13T23:40:33.3703465+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://spsprodeus27.vssps.visualstudio.com/_signin responded 203 in 518.3099 ms
+
+2025-11-13T23:40:44.4289266+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.22.151.181, 2.23.155.50, 2.22.151.189]
+
+2025-11-13T23:40:45.8887220+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[27.122.144.17, 27.122.144.8, 2.23.155.145]
+
+2025-11-13T23:40:47.3795735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[203.80.97.56, 203.80.97.107, 23.41.187.17]
+
+2025-11-13T23:40:47.4486928+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 40.126.35.19, 40.126.35.18]
+
+2025-11-13T23:40:48.9224458+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.218.4, 16.15.216.153, 16.15.185.62]
+
+2025-11-13T23:40:57.1394601+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.116.6]
+
+2025-11-13T23:41:38.5288866+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.218.4, 16.15.185.62, 16.15.186.179]
+
+2025-11-13T23:42:03.3138865+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.167, 20.190.148.166, 20.190.144.161]
+
+2025-11-13T23:42:03.3147816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.166, 20.190.144.161, 40.126.35.19]
+
+2025-11-13T23:42:21.0193541+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+learnopengl-cn.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:42:23.3067558+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.121.3]
+
+2025-11-13T23:42:24.7196073+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.110.153]
+
+2025-11-13T23:42:24.7229692+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.110.153]
+
+2025-11-13T23:42:31.4623633+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.37.198.118, 20.213.196.214]
+
+2025-11-13T23:42:41.7350668+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.41.187.17, 2.23.155.121, 23.208.31.169]
+
+2025-11-13T23:42:44.5491388+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.180.208, 16.15.218.4, 16.15.192.239]
+
+2025-11-13T23:42:46.1250555+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:42:51.1381654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.110.153]
+
+2025-11-13T23:42:53.1040831+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.110.153]
+
+2025-11-13T23:42:55.6033654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-11-13T23:42:57.1479441+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-11-13T23:43:02.7371226+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:10.2282947+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:43:12.2981637+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:12.6717349+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.26, 140.82.113.26]
+
+2025-11-13T23:43:13.2120717+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:43:14.5856837+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:43:17.6544454+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.22.151.181, 2.22.151.189, 173.222.105.60]
+
+2025-11-13T23:43:21.7550865+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:22.3030677+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[27.122.144.17, 27.122.144.8, 2.23.155.170]
+
+2025-11-13T23:43:23.1485370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.166, 20.190.144.166, 20.190.144.161]
+
+2025-11-13T23:43:27.5321192+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.167, 20.190.148.166, 20.190.144.166]
+
+2025-11-13T23:43:29.0589153+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:29.4308933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[3.5.24.30, 16.15.180.208, 16.15.182.104]
+
+2025-11-13T23:43:37.6565153+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-11-13T23:43:37.7033411+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:37.7262951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-11-13T23:43:42.5746808+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:43.2025608+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:52.5526702+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.239, 192.0.80.242]
+
+2025-11-13T23:43:52.6304485+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:53.8589099+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support-assets.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:43:53.8778551+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:01.9369000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2025-11-13T23:44:03.9851645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:44:06.6993296+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:44:08.4668588+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.21, 140.82.114.22, 140.82.112.21]
+
+2025-11-13T23:44:09.6530299+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:09.9784130+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.37.198.118]
+
+2025-11-13T23:44:15.2430922+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:17.1033427+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:17.4796555+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.166, 20.190.144.166]
+
+2025-11-13T23:44:17.6296052+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:18.0095408+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.167, 20.190.144.161, 20.190.148.166]
+
+2025-11-13T23:44:34.4677188+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:35.8203643+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:41.5790481+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dev.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:44.5453200+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:54.0450235+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+bruceqi93.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:55.6366641+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:55.9080211+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.32, 20.189.172.76]
+
+2025-11-13T23:44:57.1986949+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+teofilobd.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:58.4837898+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:44:58.6612557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.76.16, 150.171.75.16]
+
+2025-11-13T23:45:00.5237514+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.121.4]
+
+2025-11-13T23:45:02.7819061+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:45:04.1460106+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:45:11.3708465+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[95.101.35.178, 95.101.35.208, 2.22.151.189]
+
+2025-11-13T23:45:22.8638735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[3.5.24.30, 16.15.216.150, 16.15.180.208]
+
+2025-11-13T23:45:28.4449573+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:45:37.7395441+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.6, 140.82.121.5]
+
+2025-11-13T23:45:41.5262463+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-11-13T23:45:41.8640138+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/discovery/instance responded 200 in 321.4673 ms
+
+2025-11-13T23:45:42.1519089+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+app.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:45:42.3757331+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 217.9917 ms
+
+2025-11-13T23:45:42.4616073+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.vstsusers.visualstudio.com->127.0.0.1
+
+2025-11-13T23:45:42.9243641+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 455.0441 ms
+
+2025-11-13T23:45:43.2549441+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 292.3287 ms
+
+2025-11-13T23:45:43.5142751+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 236.3499 ms
+
+2025-11-13T23:45:43.7642261+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 238.2504 ms
+
+2025-11-13T23:45:44.0277001+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 242.181 ms
+
+2025-11-13T23:45:44.5483100+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:45:44.6576973+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 452.5413 ms
+
+2025-11-13T23:45:45.3239069+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 168.7282 ms
+
+2025-11-13T23:45:45.5891854+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 238.6777 ms
+
+2025-11-13T23:45:45.8466713+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 244.2411 ms
+
+2025-11-13T23:45:46.1192561+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 266.1482 ms
+
+2025-11-13T23:45:46.1655356+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14_PreferredProfile;PreferredProfile responded 204 in 562.5519 ms
+
+2025-11-13T23:45:46.2860599+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 327.8764 ms
+
+2025-11-13T23:45:46.3863135+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 256.7408 ms
+
+2025-11-13T23:45:46.7227049+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 323.6031 ms
+
+2025-11-13T23:45:48.4266620+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+aadcdn.msftauth.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:45:48.9611425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[95.101.116.72, 95.101.35.178, 173.222.105.60]
+
+2025-11-13T23:45:50.9633761+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[2.16.2.200, 23.41.187.17, 2.16.2.202]
+
+2025-11-13T23:45:52.9072556+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[27.122.144.17, 27.122.144.8, 2.16.2.200]
+
+2025-11-13T23:45:54.4312777+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-11-13T23:45:55.0641313+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 609.3416 ms
+
+2025-11-13T23:45:56.0428065+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 515.5545 ms
+
+2025-11-13T23:46:00.1320620+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:46:00.1331756+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-11-13T23:46:00.6978783+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/authorize responded 302 in 551.4471 ms
+
+2025-11-13T23:46:01.2060863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/select_account responded 200 in 502.1438 ms
+
+2025-11-13T23:46:01.2378922+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:46:01.3119598+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:46:01.3311404+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:46:01.5951619+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2025-11-13T23:46:01.6049120+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:46:02.6100690+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 304 in 991.3073 ms
+
+2025-11-13T23:46:02.6229863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/element-registry-2cd1075058ad.js responded 200 in 1015.5432 ms
+
+2025-11-13T23:46:02.6373708+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/wp-runtime-e3a8e57cf9b4.js responded 200 in 1030.9245 ms
+
+2025-11-13T23:46:02.8530137+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_hotkey_dist_index_js-node_modules_github_hydro-analytics-client_d-dd3ec8-d75a9d9879ff.js responded 200 in 1245.2283 ms
+
+2025-11-13T23:46:02.8986174+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-31b9f3-49817ec80615.js responded 200 in 1290.73 ms
+
+2025-11-13T23:46:03.1274513+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_hotkey_dist_index_js-node_modules_github_hydro-analytics-client_d-19d5f0-01fd6af43be8.js responded 200 in 468.7007 ms
+
+2025-11-13T23:46:03.3356456+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:46:03.6114693+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-be168016f455.js responded 200 in 2002.9523 ms
+
+2025-11-13T23:46:03.8243417+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-11-13T23:46:04.2560006+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_ui-commands_ui-commands_ts-66cf69b072ba.js responded 200 in 1594.9723 ms
+
+2025-11-13T23:46:04.3283505+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2025-11-13T23:46:04.3373783+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:46:05.0056949+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 660.0804 ms
+
+2025-11-13T23:46:07.7559359+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 3254.8942 ms
+
+2025-11-13T23:46:08.7668355+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 4265.8179 ms
+
+2025-11-13T23:46:17.1309179+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:46:22.6258818+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[88.221.83.89, 88.221.83.99, 2.16.2.200]
+
+2025-11-13T23:46:25.2897029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[27.122.144.17, 27.122.144.8, 88.221.83.115]
+
+2025-11-13T23:46:42.3992938+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 4.237.22.34, 140.82.121.6]
+
+2025-11-13T23:46:54.4690452+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.166, 20.190.144.166, 20.190.144.139]
+
+2025-11-13T23:46:57.3307829+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fpt.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:47:24.6774147+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[95.101.35.178, 173.222.105.60, 95.101.35.208]
+
+2025-11-13T23:47:26.5910073+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[88.221.83.115, 2.16.2.200, 2.18.244.221]
+
+2025-11-13T23:47:28.8140212+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.161, 20.190.144.164, 20.190.148.164]
+
+2025-11-13T23:47:28.8167285+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.166, 20.190.144.139, 20.190.144.136]
+
+2025-11-13T23:47:39.0242936+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:47:39.0281178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:47:46.7930735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:47:48.4233211+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.111.153, 185.199.110.153, 185.199.109.153]
+
+2025-11-13T23:47:52.0108402+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.26, 140.82.112.25]
+
+2025-11-13T23:47:53.3668012+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.4, 140.82.116.4]
+
+2025-11-13T23:48:05.3739943+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:48:05.3772604+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-11-13T23:48:05.3812316+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:48:05.7403957+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/login/oauth/authorize_app responded 302 in 364.3772 ms
+
+2025-11-13T23:48:06.1678652+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/19991900/ws responded 101 in 122251.0744 ms
+System.OperationCanceledException: The operation was canceled.
+
+
+2025-11-13T23:48:06.1821527+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:48:06.1832576+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/authorize responded 200 in 429.3294 ms
+
+2025-11-13T23:48:06.2245583+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2025-11-13T23:48:06.2291321+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:48:06.4113133+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1028.2896 ms
+
+2025-11-13T23:48:06.8217614+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 665.539 ms
+
+2025-11-13T23:48:07.1657316+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.166, 40.126.35.20, 40.126.35.84]
+
+2025-11-13T23:48:07.2262375+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/oa/191864 responded 200 in 970.5233 ms
+
+2025-11-13T23:48:07.2323216+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/oa/191864 responded 200 in 976.6391 ms
+
+2025-11-13T23:48:07.4740372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/6615685 responded 304 in 1217.8078 ms
+
+2025-11-13T23:48:07.8144417+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 324.5174 ms
+
+2025-11-13T23:48:08.3945670+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 3011.3704 ms
+
+2025-11-13T23:48:08.5410754+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1053.3264 ms
+
+2025-11-13T23:48:08.5607013+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1070.0322 ms
+
+2025-11-13T23:48:09.0424680+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 256.9266 ms
+
+2025-11-13T23:48:09.1907964+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.216.150, 16.15.193.209, 16.15.220.227]
+
+2025-11-13T23:48:17.2784406+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 407.4829 ms
+
+2025-11-13T23:48:17.7791071+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 905.5585 ms
+
+2025-11-13T23:48:20.6747999+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+dev.azure.com->127.0.0.1
+
+2025-11-13T23:48:21.0684111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-13T23:48:21.0720313+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-13T23:48:21.2731115+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://dev.azure.com/site/sha responded 302 in 592.9909 ms
+
+2025-11-13T23:48:21.2754385+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+spsprodeus27.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:48:21.8151372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://spsprodeus27.vssps.visualstudio.com/_signin responded 203 in 534.1769 ms
+
+2025-11-13T23:48:27.4373327+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.109.133, 185.199.110.133]
+
+2025-11-13T23:48:27.6220132+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/authorize responded 302 in 289.2478 ms
+
+2025-11-13T23:48:27.9185963+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/select_account responded 200 in 290.2123 ms
+
+2025-11-13T23:48:29.2331670+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 260.8596 ms
+
+2025-11-13T23:48:29.4807683+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 520.7016 ms
+
+2025-11-13T23:48:29.7507583+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 778.7684 ms
+
+2025-11-13T23:48:30.0190457+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/login/oauth/authorize_app responded 302 in 263.2375 ms
+
+2025-11-13T23:48:30.0231167+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 265.2168 ms
+
+2025-11-13T23:48:30.4096174+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login/oauth/authorize responded 200 in 377.2198 ms
+
+2025-11-13T23:48:30.8236717+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 405.5724 ms
+
+2025-11-13T23:48:30.9786334+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 257.9591 ms
+
+2025-11-13T23:48:31.0322379+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 264.4747 ms
+
+2025-11-13T23:48:31.1626932+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 395.1945 ms
+
+2025-11-13T23:48:33.0606556+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:48:33.0864267+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 267.1544 ms
+
+2025-11-13T23:48:33.1104365+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 268.7064 ms
+
+2025-11-13T23:48:33.4276766+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/login/oauth/authorize responded 200 in 589.1259 ms
+
+2025-11-13T23:48:33.8424577+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 407.884 ms
+
+2025-11-13T23:48:35.1763038+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/react-profiling-a07689720af9.js responded 200 in 1563.1589 ms
+
+2025-11-13T23:48:35.4697167+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 260.7186 ms
+
+2025-11-13T23:48:35.5423053+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 333.7841 ms
+
+2025-11-13T23:48:35.6028495+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.112.25, 140.82.113.26]
+
+2025-11-13T23:48:35.8608492+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:48:36.0759974+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 243.5855 ms
+
+2025-11-13T23:48:36.2940619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1088.411 ms
+
+2025-11-13T23:48:37.6085556+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:48:40.6209109+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 408.0548 ms
+
+2025-11-13T23:48:43.0375487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.2.13.194, 23.2.13.187, 88.221.83.115]
+
+2025-11-13T23:48:49.9351865+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/login/oauth/authorize responded 200 in 487.6993 ms
+
+2025-11-13T23:48:50.3614908+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 415.386 ms
+
+2025-11-13T23:48:50.7700059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 527.4419 ms
+
+2025-11-13T23:48:53.5144020+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:48:54.0388669+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/login/oauth/access_token responded 200 in 518.8952 ms
+
+2025-11-13T23:48:54.2461209+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:48:54.7100980+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 453.7423 ms
+
+2025-11-13T23:48:55.3650959+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.111.154, 185.199.109.154]
+
+2025-11-13T23:48:55.3662056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.109.154]
+
+2025-11-13T23:48:55.5152005+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 412.8718 ms
+
+2025-11-13T23:48:55.6031492+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 859.5662 ms
+
+2025-11-13T23:48:55.6765872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.239, 192.0.80.240]
+
+2025-11-13T23:48:55.6792713+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.109.154]
+
+2025-11-13T23:48:56.0155679+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 385.4376 ms
+
+2025-11-13T23:48:56.1368426+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:48:56.3996377+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 253.2805 ms
+
+2025-11-13T23:48:57.3745066+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 458.9681 ms
+
+2025-11-13T23:48:57.4019559+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 470.7448 ms
+
+2025-11-13T23:48:57.7840980+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 400.8212 ms
+
+2025-11-13T23:48:57.8444615+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 853.5782 ms
+
+2025-11-13T23:48:58.1994430+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 404.0913 ms
+
+2025-11-13T23:48:58.2304073+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 821.3912 ms
+
+2025-11-13T23:48:58.6196322+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 386.5377 ms
+
+2025-11-13T23:48:58.9330855+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 250.0977 ms
+
+2025-11-13T23:48:59.1384603+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 252.8936 ms
+
+2025-11-13T23:48:59.5090334+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 571.1853 ms
+
+2025-11-13T23:48:59.6433185+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 502.7478 ms
+
+2025-11-13T23:48:59.6892864+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/copilot_internal/subscribe_limited_user responded 200 in 738.6487 ms
+
+2025-11-13T23:49:01.6964999+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/user responded 200 in 440.8472 ms
+
+2025-11-13T23:49:03.8316734+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+copilot-telemetry.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:49:05.0966934+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://copilot-telemetry.githubusercontent.com/telemetry responded 200 in 1131.1076 ms
+
+2025-11-13T23:49:19.3848934+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.4]
+
+2025-11-13T23:49:19.7923198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.114.21, 140.82.114.22]
+
+2025-11-13T23:49:20.4194489+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.121.3]
+
+2025-11-13T23:49:20.5219678+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.114.22]
+
+2025-11-13T23:49:20.7425462+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.114.22]
+
+2025-11-13T23:49:22.1701056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.37.198.118]
+
+2025-11-13T23:49:24.0566449+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.2.13.194, 88.221.83.89, 23.2.13.137]
+
+2025-11-13T23:49:24.5548493+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.162, 20.190.144.166, 40.126.35.145]
+
+2025-11-13T23:49:24.8300125+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.139, 20.190.144.164, 20.190.148.164]
+
+2025-11-13T23:49:26.3470489+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.216.150, 16.15.193.209, 16.15.186.106]
+
+2025-11-13T23:49:27.7260919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:49:28.9905885+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:49:29.0883334+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:49:29.0896295+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:49:29.1943607+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.76.16, 150.171.75.16]
+
+2025-11-13T23:49:30.4118907+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.116.3]
+
+2025-11-13T23:49:38.0012726+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.162, 20.190.144.139, 20.190.144.164]
+
+2025-11-13T23:49:39.7896382+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.176.100, 16.15.216.150, 16.15.193.209]
+
+2025-11-13T23:49:44.7726492+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:49:45.4505643+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 676.4649 ms
+
+2025-11-13T23:49:47.0690963+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 20.207.73.82, 140.82.116.4]
+
+2025-11-13T23:49:52.4618576+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.176.100, 16.15.216.150, 16.15.217.36]
+
+2025-11-13T23:49:52.6063698+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 667.7903 ms
+
+2025-11-13T23:50:01.0558346+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.33, 20.189.172.76]
+
+2025-11-13T23:50:01.7661754+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.75.16, 150.171.76.16]
+
+2025-11-13T23:50:02.4764684+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://dev.azure.com/site/sha responded 302 in 516.2629 ms
+
+2025-11-13T23:50:02.5746696+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/discovery/instance responded 200 in 304.4234 ms
+
+2025-11-13T23:50:02.8625376+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 428.1368 ms
+
+2025-11-13T23:50:02.9242399+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 622.6846 ms
+
+2025-11-13T23:50:03.0707237+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 298.8295 ms
+
+2025-11-13T23:50:03.3277829+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 488.576 ms
+
+2025-11-13T23:50:03.4241415+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://spsprodeus27.vssps.visualstudio.com/_signin responded 203 in 940.9286 ms
+
+2025-11-13T23:50:03.4805726+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 583.3469 ms
+
+2025-11-13T23:50:03.6100061+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 443.3439 ms
+
+2025-11-13T23:50:03.7102950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 379.3542 ms
+
+2025-11-13T23:50:03.8775891+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 239.4766 ms
+
+2025-11-13T23:50:03.9074319+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 434.3169 ms
+
+2025-11-13T23:50:04.0872810+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 584.4791 ms
+
+2025-11-13T23:50:04.0974461+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 720.4633 ms
+
+2025-11-13T23:50:04.1448972+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 233.2476 ms
+
+2025-11-13T23:50:04.2162617+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 496.3975 ms
+
+2025-11-13T23:50:04.2654647+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 354.2354 ms
+
+2025-11-13T23:50:04.3910172+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 235.1373 ms
+
+2025-11-13T23:50:04.6578350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 390.9809 ms
+
+2025-11-13T23:50:04.6656975+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 237.459 ms
+
+2025-11-13T23:50:04.7855631+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.114.21, 140.82.112.22]
+
+2025-11-13T23:50:04.9269373+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 349.5006 ms
+
+2025-11-13T23:50:05.1213250+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 963.8936 ms
+
+2025-11-13T23:50:05.1825459+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 963.3372 ms
+
+2025-11-13T23:50:05.3698183+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 700.0236 ms
+
+2025-11-13T23:50:05.6127091+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 415.2531 ms
+
+2025-11-13T23:50:05.6385152+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/pulls responded 200 in 442.4668 ms
+
+2025-11-13T23:50:05.9140667+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 509.8596 ms
+
+2025-11-13T23:50:06.1246788+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 200 in 494.8036 ms
+
+2025-11-13T23:50:06.1566432+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 414.6618 ms
+
+2025-11-13T23:50:06.5286035+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 192.411 ms
+
+2025-11-13T23:50:06.5876532+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14_PreferredProfile;PreferredProfile responded 204 in 315.6167 ms
+
+2025-11-13T23:50:06.6117547+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 335.3082 ms
+
+2025-11-13T23:50:06.6217699+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/contributors responded 200 in 466.9003 ms
+
+2025-11-13T23:50:06.8206204+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 276.2666 ms
+
+2025-11-13T23:50:06.9815050+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 820.8333 ms
+
+2025-11-13T23:50:07.0133638+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.112.22]
+
+2025-11-13T23:50:07.0680373+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 238.4093 ms
+
+2025-11-13T23:50:07.3054282+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 232.3796 ms
+
+2025-11-13T23:50:07.3754062+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 392.1178 ms
+
+2025-11-13T23:50:07.3837369+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 956.0535 ms
+
+2025-11-13T23:50:07.4076825+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.112.22]
+
+2025-11-13T23:50:07.5436991+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 233.2204 ms
+
+2025-11-13T23:50:07.6298094+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 250.4593 ms
+
+2025-11-13T23:50:07.8524239+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 294.425 ms
+
+2025-11-13T23:50:08.0955582+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 200 in 462.7471 ms
+
+2025-11-13T23:50:08.3090268+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/copilot_internal/embeddings_index responded 200 in 474.7369 ms
+
+2025-11-13T23:50:19.6890803+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 410.0617 ms
+
+2025-11-13T23:50:25.6091102+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[173.222.105.60, 95.101.35.178, 173.222.105.30]
+
+2025-11-13T23:50:27.7908552+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.176.100, 16.15.217.36, 16.15.186.106]
+
+2025-11-13T23:50:38.7702033+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 4.237.22.34, 140.82.121.5]
+
+2025-11-13T23:50:42.4666496+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 431.1231 ms
+
+2025-11-13T23:50:48.7510473+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.76, 20.189.172.73]
+
+2025-11-13T23:50:52.9467041+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.25, 140.82.112.25]
+
+2025-11-13T23:50:57.0441971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[173.222.105.30, 95.101.35.178, 2.22.151.181]
+
+2025-11-13T23:50:57.9797598+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+sendvsfeedback2.azurewebsites.net->127.0.0.1
+
+2025-11-13T23:51:03.6390735+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+HEAD https://sendvsfeedback2.azurewebsites.net/api responded 200 in 5251.6117 ms
+
+2025-11-13T23:51:07.1789488+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.199.160, 16.15.176.100, 16.15.217.36]
+
+2025-11-13T23:51:09.5978943+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+sendvsfeedback2.azurewebsites.net:443->[40.112.143.140]
+
+2025-11-13T23:51:35.8052733+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:51:37.8355142+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.3]
+
+2025-11-13T23:51:47.2982785+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.16.106.136, 2.16.106.138, 173.222.105.30]
+
+2025-11-13T23:51:50.3557562+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2025-11-13T23:51:52.7657891+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:51:52.7693052+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/19991900/ws responded 101 in 226324.9186 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-11-13T23:51:53.4095361+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[88.221.83.89, 23.2.13.194, 23.2.13.137]
+
+2025-11-13T23:51:53.4352190+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 669.0094 ms
+
+2025-11-13T23:51:54.6012051+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1829.7649 ms
+
+2025-11-13T23:51:54.8126019+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 4450.2695 ms
+
+2025-11-13T23:51:55.1025919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[88.221.83.115, 23.2.13.194, 23.2.13.187]
+
+2025-11-13T23:51:55.7189664+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.162, 20.190.144.139, 20.190.148.164]
+
+2025-11-13T23:51:57.7083176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.199.160, 16.15.176.100, 3.5.23.197]
+
+2025-11-13T23:52:02.7698103+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.75.16, 150.171.76.16]
+
+2025-11-13T23:52:39.7255552+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.162, 20.190.144.165, 20.190.144.166]
+
+2025-11-13T23:52:46.9426293+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+sendvsfeedback2.azurewebsites.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:52:53.4184077+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.108.153]
+
+2025-11-13T23:52:53.4538726+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:52:54.9004161+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+91maketop.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:52:55.4594924+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.108.153]
+
+2025-11-13T23:52:59.9654559+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.108.153]
+
+2025-11-13T23:53:01.5272930+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.111.153, 185.199.109.153, 185.199.108.153]
+
+2025-11-13T23:53:08.7082026+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.213.196.212]
+
+2025-11-13T23:53:16.2140981+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.162, 20.190.144.139, 20.190.148.164]
+
+2025-11-13T23:53:28.0287462+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:53:33.7783889+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2025-11-13T23:53:34.2558620+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2025-11-13T23:53:41.7597661+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:53:42.3075791+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2025-11-13T23:53:48.4492392+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.113.21, 140.82.114.21]
+
+2025-11-13T23:53:48.4903438+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:53:48.8692711+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.25, 140.82.112.25, 140.82.113.26]
+
+2025-11-13T23:53:51.5074975+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.21, 140.82.113.21, 140.82.114.21]
+
+2025-11-13T23:53:53.0357959+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.50.88.235]
+
+2025-11-13T23:53:56.0376909+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+dev.azure.com->127.0.0.1
+
+2025-11-13T23:53:56.3481795+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-11-13T23:53:56.5945902+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://dev.azure.com/site/sha responded 302 in 530.0485 ms
+
+2025-11-13T23:53:56.5973571+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+spsprodeus27.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:53:56.7059752+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/discovery/instance responded 200 in 352.4688 ms
+
+2025-11-13T23:53:56.9353683+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+app.vssps.visualstudio.com->127.0.0.1
+
+2025-11-13T23:53:57.1131201+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://spsprodeus27.vssps.visualstudio.com/_signin responded 203 in 510.8801 ms
+
+2025-11-13T23:53:57.2630686+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:53:57.3018447+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[88.221.83.89, 23.2.13.137, 2.16.2.200]
+
+2025-11-13T23:53:57.6501924+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 708.9854 ms
+
+2025-11-13T23:53:57.6906802+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-11-13T23:53:57.9297141+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 661.5883 ms
+
+2025-11-13T23:53:58.2092082+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 465.4393 ms
+
+2025-11-13T23:53:58.2785133+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+userprodeus23.vstsusers.visualstudio.com->127.0.0.1
+
+2025-11-13T23:53:58.4327011+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 717.7767 ms
+
+2025-11-13T23:53:58.7907931+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 821.4934 ms
+
+2025-11-13T23:53:58.8047987+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:53:59.2187616+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 412.3171 ms
+
+2025-11-13T23:53:59.3198869+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.microsoftonline.com/organizations/oauth2/token responded 200 in 466.2464 ms
+
+2025-11-13T23:53:59.3775438+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[88.221.83.115, 2.16.2.200, 23.2.13.187]
+
+2025-11-13T23:53:59.7852382+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.162, 20.190.144.139, 20.190.144.166]
+
+2025-11-13T23:54:00.9862086+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:54:01.7130439+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/connectionData responded 200 in 301.5712 ms
+
+2025-11-13T23:54:01.9587455+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 396.607 ms
+
+2025-11-13T23:54:02.0560008+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 1064.3878 ms
+
+2025-11-13T23:54:02.3337747+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 370.795 ms
+
+2025-11-13T23:54:02.6866331+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 1101.985 ms
+
+2025-11-13T23:54:02.7138376+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 378.7695 ms
+
+2025-11-13T23:54:02.9042885+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 843.1848 ms
+
+2025-11-13T23:54:02.9551938+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 238.664 ms
+
+2025-11-13T23:54:03.0878653+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 398.6629 ms
+
+2025-11-13T23:54:03.3947521+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/pulls responded 200 in 424.6036 ms
+
+2025-11-13T23:54:03.4651719+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 376.024 ms
+
+2025-11-13T23:54:03.7064565+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/v2/token responded 200 in 508.0342 ms
+
+2025-11-13T23:54:03.7328600+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 5255.4154 ms
+
+2025-11-13T23:54:03.7851594+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 279.0805 ms
+
+2025-11-13T23:54:03.9322655+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 437.3689 ms
+
+2025-11-13T23:54:03.9334151+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/connectionData responded 200 in 2201.1154 ms
+
+2025-11-13T23:54:04.1900271+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user responded 200 in 402.3103 ms
+
+2025-11-13T23:54:04.2981683+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 521.246 ms
+
+2025-11-13T23:54:04.3305618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/ responded 200 in 395.0692 ms
+
+2025-11-13T23:54:04.5451593+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Profiles/me responded 200 in 603.3746 ms
+
+2025-11-13T23:54:04.9461990+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 395.699 ms
+
+2025-11-13T23:54:04.9536162+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Locations responded 200 in 636.5272 ms
+
+2025-11-13T23:54:05.1088851+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 200 in 916.0698 ms
+
+2025-11-13T23:54:05.1479078+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/user/orgs responded 200 in 815.3947 ms
+
+2025-11-13T23:54:05.3277492+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 370.0094 ms
+
+2025-11-13T23:54:05.4088852+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 200 in 257.7831 ms
+
+2025-11-13T23:54:05.5431070+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/contributors responded 200 in 423.4922 ms
+
+2025-11-13T23:54:05.6293593+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+marketplace.visualstudio.com->127.0.0.1
+
+2025-11-13T23:54:05.6323242+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval responded 200 in 673.2871 ms
+
+2025-11-13T23:54:05.7687224+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro/copilot_internal/embeddings_index responded 200 in 987.8259 ms
+
+2025-11-13T23:54:05.8453675+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 499.3045 ms
+
+2025-11-13T23:54:05.9130546+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/repos/jinmax/SkinWeightBrushPro responded 200 in 501.2726 ms
+
+2025-11-13T23:54:06.1313673+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery responded 200 in 480.1278 ms
+
+2025-11-13T23:54:06.1454608+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes responded 200 in 496.0769 ms
+
+2025-11-13T23:54:06.9065260+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 1115.1205 ms
+
+2025-11-13T23:54:08.3595364+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+PUT https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Profiles/me/Attributes/VisualStudio.14_PreferredProfile;PreferredProfile responded 204 in 663.5459 ms
+
+2025-11-13T23:54:09.0308582+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio responded 200 in 971.6434 ms
+
+2025-11-13T23:54:22.2480574+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@114.114.114.114:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2025-11-13T23:54:22.4803994+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.162, 20.190.144.139, 20.190.144.166]
+
+2025-11-13T23:54:24.0921856+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:26.7676099+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+userprodeus23.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:27.3246961+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:54:33.3767218+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:54:34.8259206+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:54:34.9208708+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:54:36.1595050+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:54:37.0940145+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:38.6168159+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2025-11-13T23:54:41.8909440+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:41.9930893+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2025-11-13T23:54:42.4285980+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:47.5571153+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.240, 192.0.80.239, 192.0.80.242]
+
+2025-11-13T23:54:48.9705422+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2025-11-13T23:54:49.0796566+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:50.4795149+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.75.16, 150.171.73.16]
+
+2025-11-13T23:54:52.2847992+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support-assets.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:54:52.2856920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2025-11-13T23:54:55.2886886+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.112.22, 140.82.114.21]
+
+2025-11-13T23:54:56.8175795+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.21, 140.82.112.22]
+
+2025-11-13T23:55:02.0743525+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:04.0831957+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.21, 140.82.112.21, 140.82.112.22]
+
+2025-11-13T23:55:05.6040211+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:05.8685872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.50.88.235]
+
+2025-11-13T23:55:08.9406745+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:09.4562445+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[157.197.97.41, 157.197.97.43, 88.221.83.89]
+
+2025-11-13T23:55:12.9299328+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:13.2158993+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.166, 20.190.148.164, 20.190.148.165]
+
+2025-11-13T23:55:13.5207329+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:13.7819264+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.166, 20.190.148.164, 20.190.148.165]
+
+2025-11-13T23:55:20.0026390+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.199.160, 3.5.23.197, 16.15.178.238]
+
+2025-11-13T23:55:25.6794443+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-11-13T23:55:27.5287265+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:39.1482794+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:43.4371529+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:43.6101284+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.76.16, 150.171.73.16]
+
+2025-11-13T23:55:47.1771508+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+bruceqi93.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:47.7986556+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:48.0808074+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.73, 20.189.172.76]
+
+2025-11-13T23:55:49.3781612+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+teofilobd.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:50.6828663+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:51.0467319+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.112.21, 140.82.114.22]
+
+2025-11-13T23:55:52.4517628+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.21, 140.82.114.22]
+
+2025-11-13T23:55:54.7733420+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:55:55.9403113+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 4.237.22.34, 140.82.121.6]
+
+2025-11-13T23:55:56.0379876+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.21, 140.82.112.21, 140.82.114.22]
+
+2025-11-13T23:55:58.0125935+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.50.88.238]
+
+2025-11-13T23:55:59.5759163+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+aadcdn.msftauth.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:56:00.1378683+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.16.106.136, 2.16.106.138, 95.101.35.178]
+
+2025-11-13T23:56:02.1925413+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[88.221.83.115, 23.2.13.187, 2.23.155.145]
+
+2025-11-13T23:56:04.7872265+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.137, 20.190.144.166, 20.190.148.164]
+
+2025-11-13T23:56:06.3240759+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.166, 20.190.148.164, 20.190.144.165]
+
+2025-11-13T23:56:07.8916794+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[3.5.23.197, 16.15.178.238, 16.15.219.245]
+
+2025-11-13T23:56:18.0648732+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:56:21.2464526+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:56:23.6751237+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.76, 20.189.172.32]
+
+2025-11-13T23:56:28.9805653+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 4.237.22.34, 140.82.121.5]
+
+2025-11-13T23:56:30.1361821+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:56:41.4113895+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.241.10, 4.150.240.10]
+
+2025-11-13T23:56:51.9960733+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:57:03.5440583+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:57:03.9804433+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:57:11.0690319+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.16.106.136, 2.16.106.138, 173.222.105.60]
+
+2025-11-13T23:57:12.5434524+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[157.197.97.41, 157.197.97.43, 2.23.155.121]
+
+2025-11-13T23:57:13.7928989+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.2.13.187, 2.23.155.145, 23.2.13.194]
+
+2025-11-13T23:57:16.2782560+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.179.38, 16.15.219.245, 16.15.181.158]
+
+2025-11-13T23:57:22.6464940+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fpt.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-11-13T23:57:40.5038320+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.16.106.136, 2.16.106.138, 2.18.40.212]
+
+2025-11-13T23:57:43.9385945+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.18.244.221, 23.2.13.187, 2.23.155.145]
+
+2025-11-13T23:57:44.2190033+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.137, 20.190.148.164, 20.190.144.166]
+
+2025-11-13T23:57:44.4553731+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.164, 20.190.144.166, 20.190.148.165]
+
+2025-11-13T23:57:59.3754767+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.110.153]
+
+2025-11-13T23:58:04.3850400+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.110.153]
+
+2025-11-13T23:58:16.4106024+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.110.153]
+
+2025-11-13T23:58:16.7447862+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.110.153]
+
+2025-11-13T23:58:17.2616924+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.4]
+
+2025-11-13T23:58:23.9051268+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.4]
+
+2025-11-13T23:58:37.6005067+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.164, 20.190.148.165, 40.126.35.81]
+
+2025-11-13T23:58:46.0206332+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.240.10, 4.150.241.10]
+
+2025-11-13T23:58:51.9227451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-11-13T23:58:51.9246536+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-11-13T23:58:53.6987195+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-11-13T23:58:53.7042193+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://api.github.com/copilot_internal/user responded 200 in 704.4704 ms
+
+2025-11-13T23:58:56.3653290+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 4.225.11.201]
+
+2025-11-13T23:58:57.9288189+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:58:59.3204451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:59:00.8317710+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.25, 140.82.112.25]
+
+2025-11-13T23:59:02.0746323+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2025-11-13T23:59:05.1163606+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.213.196.214]
+
+2025-11-13T23:59:06.6808802+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.16.106.136, 2.16.106.138, 2.23.155.50]
+
+2025-11-13T23:59:08.3064691+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.18.244.221, 2.23.155.170, 23.41.187.31]
+
+2025-11-13T23:59:09.7165898+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[157.197.97.41, 157.197.97.43, 23.2.13.194]
+
+2025-11-13T23:59:11.2846141+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.164, 20.190.144.166, 20.190.148.165]
+
+2025-11-13T23:59:12.8245648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.179.38, 16.15.181.158, 16.15.192.153]
+
+2025-11-13T23:59:26.7733500+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:59:27.3680791+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/signup/copilot_individual responded 301 in 586.1154 ms
+
+2025-11-13T23:59:27.6990500+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/signup/copilot_individual responded 301 in 323.7203 ms
+
+2025-11-13T23:59:28.2279436+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/pro responded 200 in 848.6121 ms
+
+2025-11-13T23:59:28.2669056+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-11-13T23:59:28.2678167+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:59:28.3544154+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:59:28.6935763+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/pro responded 200 in 463.3674 ms
+
+2025-11-13T23:59:28.8678358+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2025-11-13T23:59:28.8686718+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2025-11-13T23:59:29.7010835+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-0a3881881e9e.css responded 200 in 962.0169 ms
+
+2025-11-13T23:59:29.9469855+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/environment-880c4892499b.js responded 200 in 980.0137 ms
+
+2025-11-13T23:59:29.9509906+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/element-registry-bf6bb66d128e.js responded 200 in 816.2412 ms
+
+2025-11-13T23:59:30.0751299+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-8f77ed-f3e114419404.js responded 200 in 938.46 ms
+
+2025-11-13T23:59:30.0767520+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_failbot_failbot_ts-1882ab218abf.js responded 200 in 940.1244 ms
+
+2025-11-13T23:59:30.0960155+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-968bf2a046ec.js responded 200 in 959.3612 ms
+
+2025-11-13T23:59:30.4462447+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/wp-runtime-7964b0acf7fd.js responded 200 in 1483.3025 ms
+
+2025-11-13T23:59:30.7245042+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-11-13T23:59:30.7877179+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-b1612f-41eccb157242.js responded 200 in 236.3428 ms
+
+2025-11-13T23:59:30.8096650+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-b96963-57d5625cea47.js responded 200 in 258.3025 ms
+
+2025-11-13T23:59:31.0062085+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_hotkey_dist_index_js-node_modules_github_hydro-analytics-client_d-e0836c-fc1cae47bf30.js responded 200 in 255.2795 ms
+
+2025-11-13T23:59:31.0087613+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_utils_copilot-chat-helpers_ts-packages_verified-fetch_verified-fetch_ts-25130ed811e1.js responded 200 in 257.8146 ms
+
+2025-11-13T23:59:31.0151441+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_relay-environment_relay-environment_ts-9cad9fee2f8b.js responded 200 in 263.9399 ms
+
+2025-11-13T23:59:31.0187122+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_noop_noop_ts-packages_promise-with-resolvers-polyfill_promise-with-resolvers-polyfil-dc8883.7f031514283e662378f6.module.css responded 200 in 268.0391 ms
+
+2025-11-13T23:59:31.0783297+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_history_history_ts-packages_soft-nav_state_ts-packages_copilot-chat_components_repo--fba696-00e6f1df4fa7.js responded 200 in 327.0336 ms
+
+2025-11-13T23:59:31.0878746+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 336.5308 ms
+
+2025-11-13T23:59:31.1448846+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 304 in 2005.8269 ms
+
+2025-11-13T23:59:31.2427243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_pluralize_pluralize_js-node_modules_github_-394ca21-d8033e851ef4.js responded 200 in 442.0971 ms
+
+2025-11-13T23:59:31.2443861+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_hotkey_dist_index_js-node_modules_github_hydro-analytics-client_d-05e240-92c377c3da12.js responded 200 in 431.8933 ms
+
+2025-11-13T23:59:31.2530093+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-lazy-react-partial-global-nav-menu-56e042a1363f.js responded 200 in 452.3878 ms
+
+2025-11-13T23:59:31.2626394+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 200 in 473.0639 ms
+
+2025-11-13T23:59:31.2706997+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_filter_utils_index_ts-packages_fuzzy-score_fuzzy-score_ts-packages_use-analytics_use-554964-7bdfa9c1d898.js responded 200 in 470.09 ms
+
+2025-11-13T23:59:31.2900944+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_noop_noop_ts-packages_promise-with-resolvers-polyfill_promise-with-resolvers-polyfil-dc8883-58b843ff424d.js responded 200 in 538.7963 ms
+
+2025-11-13T23:59:31.5067363+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_cookies_cookies_ts-packages_global-user-nav-drawer_entry_ts-packages_promise-with-re-49aa08-ff35243682d1.js responded 200 in 692.8969 ms
+
+2025-11-13T23:59:31.5670419+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2025-11-13T23:59:31.6546239+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_global-user-nav-drawer_GlobalUserNavDrawer_tsx-61b57f5dfe36.js responded 200 in 840.7885 ms
+
+2025-11-13T23:59:31.8810745+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-11-13T23:59:32.2876067+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-chat-c96468184765.js responded 200 in 1536.2915 ms
+
+2025-11-13T23:59:32.5207754+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-lazy-react-partial-copilot-chat-fff051030256.js responded 200 in 1240.6642 ms
+
+2025-11-13T23:59:32.7516332+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat/entitlement responded 304 in 433.4971 ms
+
+2025-11-13T23:59:32.9303316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1040.6878 ms
+
+2025-11-13T23:59:32.9942155+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1111.7537 ms
+
+2025-11-13T23:59:33.1232877+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1247.2249 ms
+
+2025-11-13T23:59:33.2599364+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-11-13T23:59:33.4339463+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 888.253 ms
+
+2025-11-13T23:59:33.5496184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1010.5881 ms
+
+2025-11-13T23:59:33.5501472+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1004.6106 ms
+
+2025-11-13T23:59:33.6332444+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 372.4233 ms
+
+2025-11-13T23:59:37.4722966+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 299.1927 ms
+
+2025-11-13T23:59:37.8804770+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/pro/signup responded 200 in 711.8562 ms
+
+2025-11-13T23:59:38.1158193+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/billing-afed2b5b0ed2.js responded 200 in 243.4324 ms
+
+2025-11-13T23:59:38.1674773+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19991900 responded 304 in 250.7842 ms
+
+2025-11-13T23:59:38.2020677+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_hydro-analyt-9e97651-44812d8df2b4.js responded 200 in 243.5583 ms
+
+2025-11-13T23:59:38.2079737+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 402.7993 ms
+
+2025-11-13T23:59:38.2325715+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_billing-checkout-element_element-entry_ts-packages_history_history_ts-packages_promi-7da6f7-88bde08b5618.js responded 200 in 274.0534 ms
+
+2025-11-13T23:59:38.3506009+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 353.6145 ms
+
+2025-11-13T23:59:38.5064126+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 304 in 440.8664 ms
+
+2025-11-13T23:59:38.7221460+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_zuorajs_zuora_js--6a5fe2-d3ff29dfd845.js responded 200 in 850.0883 ms
+
+2025-11-13T23:59:38.9482781+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat/entitlement responded 304 in 416.3258 ms
+
+2025-11-13T23:59:39.0525280+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_billing_name-address-form_ts-packages_history_history_ts-packages_s-ca5fb1-993b5be0518e.js responded 200 in 1180.2422 ms
+
+2025-11-13T23:59:39.6365436+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 320.4453 ms
+
+2025-11-13T23:59:39.8017093+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 560.2171 ms
+
+2025-11-13T23:59:48.7763547+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 341.8521 ms
+
+2025-11-13T23:59:48.7948188+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 412.5964 ms
+
+2025-11-13T23:59:48.8974486+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 296.7149 ms
+
+2025-11-13T23:59:48.9335633+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 304 in 420.1555 ms
+
+2025-11-13T23:59:49.0069680+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 406.1387 ms
+
+2025-11-13T23:59:49.3818414+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat/entitlement responded 304 in 426.5251 ms
+
+2025-11-13T23:59:49.4038370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:50.6400079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:51.7637285+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:51.7671111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:52.3393222+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 269.3999 ms
+
+2025-11-13T23:59:52.9524592+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:54.3431877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.111.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T23:59:54.3442850+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T23:59:54.6369911+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.239, 192.0.80.240, 192.0.80.241]
+
+2025-11-13T23:59:54.8992778+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.76.16, 150.171.73.16, 150.171.74.16]
+
+2025-11-13T23:59:54.9004358+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.111.154, 185.199.110.154, 185.199.108.154]
+
+2025-11-13T23:59:56.7186966+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.114.22, 140.82.112.22]
+
+2025-11-13T23:59:56.7195908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.114.22, 140.82.112.22]
+
+2025-11-13T23:59:57.9490649+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 763.515 ms
+
+2025-11-13T23:59:59.1192656+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.138, 20.190.148.164, 20.190.144.166]
+

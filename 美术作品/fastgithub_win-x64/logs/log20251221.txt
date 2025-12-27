@@ -1,0 +1,2266 @@
+2025-12-21T23:39:22.8489043+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2025-12-21T23:39:22.9336011+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-12-21T23:39:22.9355638+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-12-21T23:39:22.9363425+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-12-21T23:39:22.9877549+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-12-21T23:39:23.0483202+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+127.0.0.1:443 <=> 127.0.0.1:444
+
+2025-12-21T23:39:23.0504435+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpsInterceptor
+::1:443 <=> ::1:444
+
+2025-12-21T23:39:23.9773787+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-12-21T23:39:36.2122789+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-12-21T23:39:36.9864857+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 12639.2187 ms
+
+2025-12-21T23:39:47.0421739+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 10053.0018 ms
+
+2025-12-21T23:39:48.3293296+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md responded 200 in 1117.9572 ms
+
+2025-12-21T23:39:48.5836312+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md.minisig responded 200 in 252.7073 ms
+
+2025-12-21T23:39:53.0720387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.76, 20.189.172.32, 20.189.172.73]
+
+2025-12-21T23:39:56.2790032+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:39:56.4035834+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/UE_Tools.git/info/refs responded 502 in 20110.998 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage )
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken )
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-12-21T23:39:56.5078867+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+aadcdn.msftauth.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:39:57.9931602+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[92.123.103.75, 92.123.103.56, 2.21.134.153]
+
+2025-12-21T23:40:03.8854943+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.109.153, 185.199.110.153, 185.199.111.153]
+
+2025-12-21T23:40:06.3259400+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+91maketop.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:06.8759904+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.109.153, 185.199.110.153, 185.199.111.153]
+
+2025-12-21T23:40:10.0481909+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dev.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:10.2310919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:40:12.7220592+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/UE_Tools.git/info/refs responded 401 in 1143.2576 ms
+
+2025-12-21T23:40:15.7412797+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.113.4]
+
+2025-12-21T23:40:17.3588089+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/UE_Tools.git/info/refs responded 200 in 325.9956 ms
+
+2025-12-21T23:40:17.9903362+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cdnjs.cloudflare.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:18.1395354+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/jinmax369/UE_Tools.git/git-upload-pack responded 200 in 567.4837 ms
+
+2025-12-21T23:40:18.2438853+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cdnjs.cloudflare.com:443->[104.17.24.14, 104.17.25.14]
+
+2025-12-21T23:40:24.2465337+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:24.4173000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+management.azure.com:443->[4.150.240.10]
+
+2025-12-21T23:40:26.7957495+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:27.4264123+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.21, 140.82.113.22, 140.82.114.22]
+
+2025-12-21T23:40:27.8626077+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/UE_Tools.git/info/refs responded 401 in 277.3935 ms
+
+2025-12-21T23:40:29.7548122+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[140.82.112.3]
+
+2025-12-21T23:40:32.2985059+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+user-images.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:32.8980948+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:40:34.6379169+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/jinmax369/UE_Tools.git/info/refs responded 200 in 346.5885 ms
+
+2025-12-21T23:40:35.0799717+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+learnopengl-cn.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:35.6671819+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.109.153, 185.199.110.153, 185.199.111.153]
+
+2025-12-21T23:40:35.9654703+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/jinmax369/UE_Tools.git/git-receive-pack responded 200 in 1067.6091 ms
+
+2025-12-21T23:40:38.0181233+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:40:41.3451041+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd-nocache-ccp.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:40:41.5281142+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache-ccp.azureedge.net:443->[13.107.246.50, 13.107.246.59, 13.107.213.74]
+
+2025-12-21T23:40:52.3739156+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.7, 13.105.28.1, 40.90.133.97]
+
+2025-12-21T23:41:05.2614385+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.246.50, 13.107.246.41, 13.107.213.74]
+
+2025-12-21T23:41:15.0049623+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:80->[20.205.243.166, 140.82.113.4]
+
+2025-12-21T23:41:17.6053428+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+sendvsfeedback2.azurewebsites.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:17.9254245+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+sendvsfeedback2.azurewebsites.net:443->[40.112.143.140]
+
+2025-12-21T23:41:20.2350839+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd-nocache.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:20.3697016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache.azureedge.net:443->[13.107.246.50, 13.107.246.46, 13.107.246.74]
+
+2025-12-21T23:41:26.8416694+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:26.9857313+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.50, 13.107.246.44, 13.107.246.74]
+
+2025-12-21T23:41:34.4677364+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:34.5767019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:41:36.5870107+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+viewscreen.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:38.2061340+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.21]
+
+2025-12-21T23:41:41.4560400+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+binstar-cio-packages-prod.s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:42.3104469+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[3.5.8.187, 52.216.215.97, 3.5.27.221]
+
+2025-12-21T23:41:46.4177430+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+symbols.nuget.org@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:46.8622078+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[23.73.2.80, 23.73.2.78, 23.44.201.217]
+
+2025-12-21T23:41:51.0026914+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:51.3688089+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 4.225.11.201]
+
+2025-12-21T23:41:52.4037957+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.v2ex.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:52.7024996+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.v2ex.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:41:58.0736783+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.v2ex.com:443->[172.66.137.6, 172.66.133.207]
+
+2025-12-21T23:42:00.2695648+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:00.8332913+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:42:17.4470180+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[52.216.210.160, 54.231.205.8, 52.216.214.48]
+
+2025-12-21T23:42:18.2416406+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:23.4841830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.239, 192.0.80.240, 192.0.80.241]
+
+2025-12-21T23:42:24.5391805+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:42:31.2432370+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:31.6121717+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:42:35.8929514+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+assetripper.github.io:443->[185.199.109.153, 185.199.110.153, 185.199.111.153]
+
+2025-12-21T23:42:37.8778415+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:38.0335962+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:42:39.8263277+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:39.9331796+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.21, 140.82.113.21]
+
+2025-12-21T23:42:42.4209432+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+odc.officeapps.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:42.7714511+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+odc.officeapps.live.com:443->[52.109.52.84, 52.109.56.130, 52.109.28.48]
+
+2025-12-21T23:42:45.3890600+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.109.153, 185.199.110.153, 185.199.111.153]
+
+2025-12-21T23:42:47.5770297+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects-origin.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:48.1606982+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.114.21, 140.82.112.21]
+
+2025-12-21T23:42:50.9042159+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:51.5277889+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:42:53.5197992+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:53.6823787+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.50, 13.107.246.67, 13.107.213.74]
+
+2025-12-21T23:42:56.4141275+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:42:56.7873943+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.111.133]
+
+2025-12-21T23:42:59.2403911+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:43:00.6085820+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-12-21T23:43:03.4637947+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:43:03.7884318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:43:20.0194825+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.67, 20.190.166.133, 20.190.166.68]
+
+2025-12-21T23:43:21.8750460+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+edge-consumer-static.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:43:22.0392249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.50, 13.107.246.69, 13.107.213.69]
+
+2025-12-21T23:43:31.2449935+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:43:31.8744200+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-12-21T23:43:38.2343916+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:43:43.6557434+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:43:43.9908551+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.50.88.235, 20.50.88.233]
+
+2025-12-21T23:43:51.8487695+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.85, 40.126.35.134, 40.126.35.81]
+
+2025-12-21T23:43:54.3710671+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.114.22]
+
+2025-12-21T23:43:59.9289232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fpt.live.com:443->[20.51.15.234, 20.62.60.180]
+
+2025-12-21T23:44:02.3969037+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+xpaywalletcdn-prod.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:44:02.5761397+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.246.50, 13.107.246.51, 13.107.213.51]
+
+2025-12-21T23:44:07.7308037+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:44:08.2025622+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.18.244.201, 2.18.244.221, 104.117.77.171]
+
+2025-12-21T23:44:10.3218157+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:44:10.7860489+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[2.18.244.207, 23.73.2.143, 23.73.2.161]
+
+2025-12-21T23:44:13.0822940+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.113.25, 140.82.112.25]
+
+2025-12-21T23:44:15.5108681+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2025-12-21T23:44:18.7814475+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.121.4, 140.82.113.4]
+
+2025-12-21T23:44:29.3887419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[4.237.22.38, 140.82.112.3]
+
+2025-12-21T23:44:36.0741608+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:44:36.3478792+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:80->[20.205.243.166, 140.82.121.4, 140.82.113.4]
+
+2025-12-21T23:44:42.5283611+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 4.225.11.201]
+
+2025-12-21T23:44:55.8634300+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.114.21, 140.82.112.21, 140.82.113.22]
+
+2025-12-21T23:45:05.5565922+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.76, 20.189.172.32, 20.189.172.33]
+
+2025-12-21T23:45:10.0855608+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.22]
+
+2025-12-21T23:45:16.3094115+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.50, 13.107.246.67, 13.107.246.44]
+
+2025-12-21T23:45:18.4344063+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.114.21, 140.82.112.22, 140.82.112.21]
+
+2025-12-21T23:45:24.3134860+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.22, 140.82.112.21]
+
+2025-12-21T23:45:26.4753882+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+odc.officeapps.live.com:443->[52.109.52.84, 52.109.56.130, 52.109.112.174]
+
+2025-12-21T23:45:27.9265908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.50.88.235]
+
+2025-12-21T23:45:50.1314319+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@114.114.114.114:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2025-12-21T23:45:50.3775645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.114.22, 140.82.112.22]
+
+2025-12-21T23:45:55.3776498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:45:59.4924161+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:46:02.8376145+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.7, 13.105.28.1, 20.135.6.15]
+
+2025-12-21T23:46:03.6840234+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:46:10.9194386+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:46:12.4042387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:46:15.1824551+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-12-21T23:46:19.5326594+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.113.26, 140.82.113.25]
+
+2025-12-21T23:46:22.0356513+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[2.18.244.34, 2.18.244.19, 2.21.134.153]
+
+2025-12-21T23:46:24.9401000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache-ccp.azureedge.net:443->[13.107.213.74, 13.107.213.70, 13.107.213.50]
+
+2025-12-21T23:46:30.7567807+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.213.74, 13.107.246.62, 13.107.213.50]
+
+2025-12-21T23:46:33.1071001+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[23.73.2.80, 95.101.74.216, 95.101.74.227]
+
+2025-12-21T23:46:34.7560353+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.38, 13.107.246.67, 13.107.213.74]
+
+2025-12-21T23:46:37.7496761+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.38, 13.107.246.69, 13.107.213.69]
+
+2025-12-21T23:46:45.1226168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.246.51, 13.107.213.74, 13.107.213.51]
+
+2025-12-21T23:46:48.4684419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[184.51.88.68, 184.51.88.48, 2.18.244.201]
+
+2025-12-21T23:46:50.5651024+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[193.246.48.11, 2.18.244.207, 23.73.2.143]
+
+2025-12-21T23:46:52.8656984+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[3.5.27.221, 52.217.230.113, 52.217.69.204]
+
+2025-12-21T23:46:56.9544704+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.85, 40.126.35.80, 40.126.35.134]
+
+2025-12-21T23:47:05.2879678+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:07.4905322+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.116.3]
+
+2025-12-21T23:47:09.4367590+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cdnjs.cloudflare.com:443->[104.17.25.14, 104.17.24.14]
+
+2025-12-21T23:47:12.0973864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 4.237.22.38, 140.82.114.4]
+
+2025-12-21T23:47:13.6951116+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:16.9569233+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:18.9713310+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:20.7170087+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:22.3652730+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:47:30.0361694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.112.22, 140.82.114.21]
+
+2025-12-21T23:47:33.9529668+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.22, 140.82.112.22, 140.82.114.21]
+
+2025-12-21T23:47:36.0472967+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.45, 13.107.246.44, 13.107.246.67]
+
+2025-12-21T23:47:38.1077625+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.114.22, 140.82.112.22, 140.82.114.21]
+
+2025-12-21T23:47:44.4908117+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.241, 192.0.80.242, 192.0.80.239]
+
+2025-12-21T23:47:46.2106255+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.21, 140.82.113.22]
+
+2025-12-21T23:47:47.9593294+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.114.22, 140.82.114.21, 140.82.113.22]
+
+2025-12-21T23:47:51.3311984+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache.azureedge.net:443->[13.107.246.38, 13.107.246.46, 13.107.213.50]
+
+2025-12-21T23:47:53.2824786+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+odc.officeapps.live.com:443->[52.109.124.141, 52.109.52.84, 52.109.44.112]
+
+2025-12-21T23:47:55.2647381+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.37.198.118, 20.213.196.214]
+
+2025-12-21T23:48:09.8226047+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.38, 13.107.246.69, 13.107.213.69]
+
+2025-12-21T23:48:28.4405151+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[95.100.171.4, 184.51.88.68, 184.51.88.48]
+
+2025-12-21T23:48:34.4337895+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[23.73.4.75, 2.18.244.34, 23.73.4.96]
+
+2025-12-21T23:48:37.8029956+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.85, 40.126.35.87, 40.126.35.150]
+
+2025-12-21T23:48:39.3675779+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[16.182.36.161, 3.5.27.221, 52.217.230.113]
+
+2025-12-21T23:48:40.8241431+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.131, 20.190.166.133, 20.190.166.132]
+
+2025-12-21T23:48:47.4416980+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.199.131, 16.15.182.23, 3.5.22.87]
+
+2025-12-21T23:49:14.7055060+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 4.237.22.38, 140.82.121.4]
+
+2025-12-21T23:49:29.3685662+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.111.154, 185.199.108.154]
+
+2025-12-21T23:49:31.2282671+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.109.154, 185.199.111.154, 185.199.108.154]
+
+2025-12-21T23:49:33.2754771+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.109.154, 185.199.111.154, 185.199.108.154]
+
+2025-12-21T23:49:37.2758244+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.45, 13.107.246.44, 13.107.213.74]
+
+2025-12-21T23:49:44.5248328+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.246.44, 13.107.213.74, 13.107.213.51]
+
+2025-12-21T23:49:46.4392589+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:49:46.8447863+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.114.26, 140.82.112.26]
+
+2025-12-21T23:49:55.4025879+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+storage.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:49:57.7199371+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.37.198.118]
+
+2025-12-21T23:49:59.3826526+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache-ccp.azureedge.net:443->[13.107.246.38, 13.107.213.74, 13.107.213.70]
+
+2025-12-21T23:50:01.2200673+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+edge-cloud-resource-static.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:50:01.3578002+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.246.45, 13.107.213.74, 13.107.213.45]
+
+2025-12-21T23:50:05.1718667+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.45, 13.107.246.38, 13.107.213.69]
+
+2025-12-21T23:50:06.7255293+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.38, 13.107.213.69, 13.107.246.69]
+
+2025-12-21T23:50:11.5599770+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[193.246.48.11, 2.18.244.201, 2.18.244.207]
+
+2025-12-21T23:50:18.7563014+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+aadcdn.msftauth.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:50:21.5901954+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.166, 40.126.35.87, 40.126.35.128]
+
+2025-12-21T23:50:26.4131701+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[54.231.166.129, 16.182.36.161, 3.5.27.221]
+
+2025-12-21T23:50:43.5150050+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:50:46.8571759+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+management.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:50:53.0217964+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dev.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:50:53.8746743+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cdnjs.cloudflare.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:08.2710507+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+userprodeus23.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:19.0509441+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:19.3088750+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.73, 20.189.172.76]
+
+2025-12-21T23:51:23.9621188+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.108.153, 185.199.109.153, 185.199.110.153]
+
+2025-12-21T23:51:26.1862464+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+91maketop.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:26.5368870+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.108.153, 185.199.109.153, 185.199.110.153]
+
+2025-12-21T23:51:28.0750580+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+user-images.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:29.4219479+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:30.1523735+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+learnopengl-cn.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:30.4731926+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.108.153, 185.199.109.153, 185.199.110.153]
+
+2025-12-21T23:51:32.5166290+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+private-user-images.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:32.6131753+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:35.1821668+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:35.8131299+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:41.7087937+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:41.8062608+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:42.3909077+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+assetripper.github.io:443->[185.199.108.153, 185.199.109.153, 185.199.110.153]
+
+2025-12-21T23:51:42.9100730+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:43.3866498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.108.153, 185.199.109.153, 185.199.110.153]
+
+2025-12-21T23:51:43.8204261+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.109.133]
+
+2025-12-21T23:51:55.3915691+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:57.7231790+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:51:59.4262674+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:80->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2025-12-21T23:52:03.3182790+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+viewscreen.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:03.6991267+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.112.22, 140.82.114.21, 140.82.114.22]
+
+2025-12-21T23:52:07.2406010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.114.21, 140.82.114.22, 140.82.113.22]
+
+2025-12-21T23:52:08.9129424+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.114.22]
+
+2025-12-21T23:52:10.7249645+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:10.8330326+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.114.22]
+
+2025-12-21T23:52:12.6363009+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd-nocache.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:12.8008135+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache.azureedge.net:443->[13.107.213.50, 13.107.246.74, 13.107.246.66]
+
+2025-12-21T23:52:14.9998874+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.25, 140.82.114.26]
+
+2025-12-21T23:52:17.0055795+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:17.1654832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.45, 13.107.246.73, 13.107.246.74]
+
+2025-12-21T23:52:23.3235334+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.246.44, 13.107.213.50, 13.107.246.57]
+
+2025-12-21T23:52:25.3889732+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.15, 20.135.4.173, 64.236.59.233]
+
+2025-12-21T23:52:27.1849682+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fp-afd-nocache-ccp.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:27.3628485+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache-ccp.azureedge.net:443->[13.107.213.50, 13.107.213.70, 13.107.246.74]
+
+2025-12-21T23:52:29.2385821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.246.45, 13.107.213.50, 13.107.246.62]
+
+2025-12-21T23:52:31.1046279+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.45, 13.107.213.50, 13.107.213.69]
+
+2025-12-21T23:52:37.6082653+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.213.50, 13.107.213.70, 13.107.213.69]
+
+2025-12-21T23:52:48.7599249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[23.73.4.75, 23.72.248.200, 2.18.244.34]
+
+2025-12-21T23:52:57.0659347+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+symbols.nuget.org@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:52:57.6234652+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[95.101.74.227, 23.73.2.80, 23.73.2.78]
+
+2025-12-21T23:52:59.6361320+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[95.100.171.4, 2.18.244.221, 184.51.88.48]
+
+2025-12-21T23:53:01.6836683+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[193.246.48.105, 193.246.48.11, 23.33.90.80]
+
+2025-12-21T23:53:07.5697455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.139, 20.190.144.162, 20.190.144.161]
+
+2025-12-21T23:53:09.2079407+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:09.4050924+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+ajax.googleapis.com->127.0.0.1
+
+2025-12-21T23:53:09.5347475+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:09.5347490+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:09.7364785+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:09.7364785+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:09.7396544+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 205.488 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:09.7396645+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 205.4895 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:10.0498147+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:10.0499418+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:10.2587631+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 208.8147 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:10.2587759+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:10.2587887+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 208.9838 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:12.9955503+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[54.231.166.129, 16.182.36.161, 52.217.225.81]
+
+2025-12-21T23:53:13.9205372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 4184.0628 ms
+
+2025-12-21T23:53:13.9228591+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:13.9233958+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:14.1292314+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 205.8094 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:14.1292225+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:14.1298508+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 206.9982 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:14.2683427+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 4531.8683 ms
+
+2025-12-21T23:53:14.2709787+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:14.4787402+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:14.4787727+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 207.7729 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:14.8175456+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 4558.7631 ms
+
+2025-12-21T23:53:14.8196473+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:15.3958494+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1266.6405 ms
+
+2025-12-21T23:53:15.3987967+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:15.3988043+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:15.6013497+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:15.6015357+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 202.7325 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:15.6016028+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 202.8101 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:16.0218469+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 1202.1966 ms
+
+2025-12-21T23:53:16.0238790+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:16.0244859+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:16.2333129+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 208.7793 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:16.2333337+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 209.4452 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:16.2334207+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:17.2374969+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1636.1466 ms
+
+2025-12-21T23:53:17.2404453+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:17.2406091+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:17.4470630+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 206.6014 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:17.4470630+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 206.4362 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:17.4475062+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:18.8179600+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 4339.217 ms
+
+2025-12-21T23:53:18.8212502+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:19.0296963+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:19.0298870+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 208.6403 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:21.0701335+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 4836.6974 ms
+
+2025-12-21T23:53:21.0722379+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:21.0729089+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:21.2824600+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 210.2057 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:21.2826941+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:21.2827340+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 209.7798 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:24.9294504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.15.199.131, 16.15.182.23, 52.217.104.166]
+
+2025-12-21T23:53:25.8307624+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 8383.2549 ms
+
+2025-12-21T23:53:25.8331731+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:25.8345099+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:26.0486479+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 215.4687 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:26.0487663+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 214.2516 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:26.0494238+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:26.3868980+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 5104.1847 ms
+
+2025-12-21T23:53:26.3893439+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:26.3902496+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:26.5994476+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 209.1832 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:26.5996069+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 210.2816 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:26.5996648+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:26.7996615+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 7769.9577 ms
+
+2025-12-21T23:53:26.8029767+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:27.0151322+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 212.1353 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:27.0151661+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:27.1389831+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+gapis.geekzu.org@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:27.1929617+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1143.5433 ms
+
+2025-12-21T23:53:27.1955061+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:27.1961338+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:27.3979931+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 201.8215 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:27.3980104+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 202.4784 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:27.3981686+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:28.1795422+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 1579.8767 ms
+
+2025-12-21T23:53:28.1820666+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:28.1827034+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:28.3973481+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 215.2534 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:28.3977336+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 215.0197 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:28.3977361+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:28.4203734+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+gapis.geekzu.org:443->[172.67.141.24, 104.21.70.253]
+
+2025-12-21T23:53:30.8915507+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 3493.368 ms
+
+2025-12-21T23:53:30.8936731+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:30.8941999+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:31.1050306+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 210.8086 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:31.1054257+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 211.7378 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:31.1055845+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:31.5617793+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 3164.0364 ms
+
+2025-12-21T23:53:31.5639261+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:31.5646024+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:31.7672810+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 203.3299 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:31.7673976+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 202.7668 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:31.7674849+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:32.7369427+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1631.3494 ms
+
+2025-12-21T23:53:32.7395349+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:32.7400575+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:32.8473500+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+sendvsfeedback2.azurewebsites.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:32.9503894+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 210.3056 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:32.9505478+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 211.0117 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:32.9506622+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:33.6302274+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 6615.075 ms
+
+2025-12-21T23:53:33.6328543+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:33.6614109+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:53:33.8373061+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 204.382 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:33.8373639+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.7037935+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1753.1016 ms
+
+2025-12-21T23:53:34.7062789+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.7067501+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.7795143+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 3012.0016 ms
+
+2025-12-21T23:53:34.7814925+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.7820742+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.9102401+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 203.4674 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:34.9103126+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 204.0351 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:34.9104379+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:34.9878968+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 206.3847 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:34.9879457+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 205.8386 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:34.9884793+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:35.7565845+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 1919.2042 ms
+
+2025-12-21T23:53:35.7594143+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:35.9646855+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 205.2583 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:35.9648921+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:36.8879088+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 1977.4555 ms
+
+2025-12-21T23:53:36.8903647+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:36.8909115+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:37.1009626+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 210.582 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:37.1009885+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 210.0566 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:37.1012440+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:37.2720802+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:37.3794097+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:53:37.9870428+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 2998.5248 ms
+
+2025-12-21T23:53:37.9896210+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:37.9902246+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:38.1956610+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 205.4055 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:38.1958781+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:38.1959545+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 206.3384 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:38.2297074+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.v2ex.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:39.3907871+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 302 in 3425.8696 ms
+
+2025-12-21T23:53:39.3939002+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:39.6047549+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 210.8424 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:39.6048972+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:39.8195458+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+www.v2ex.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:40.5871712+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 2391.2805 ms
+
+2025-12-21T23:53:40.5893458+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:40.5899058+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:40.7963500+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 206.4053 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:40.7965383+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:40.7967317+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 207.3759 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:40.8190298+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 302 in 3717.7807 ms
+
+2025-12-21T23:53:40.8226031+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:40.8241054+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:41.0285981+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 205.9909 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:41.0285983+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 204.4835 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:41.0286239+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:44.9424461+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.v2ex.com:443->[172.66.133.207, 172.66.137.6]
+
+2025-12-21T23:53:44.9488495+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 302 in 4152.2909 ms
+
+2025-12-21T23:53:44.9516631+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:44.9524878+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:45.1592408+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 206.7412 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:45.1593938+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 207.7602 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:45.1597763+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:46.4257733+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:46.4274474+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 1264.2067 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (172.67.141.24) (104.21.70.253) (向一个无法连接的网络尝试了一个套接字操作。) (向一个无法连接的网络尝试了一个套接字操作。) (gapis.geekzu.org:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (172.67.141.24) (104.21.70.253) (向一个无法连接的网络尝试了一个套接字操作。) (向一个无法连接的网络尝试了一个套接字操作。)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 172.67.141.24
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+ ---> (Inner Exception #1) FastGithub.Http.HttpConnectTimeoutException: 104.21.70.253<---
+
+ ---> (Inner Exception #2) System.Net.Sockets.SocketException (10051): 向一个无法连接的网络尝试了一个套接字操作。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 )
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.ConnectAsync(SocketsHttpConnectionContext context, IPEndPoint ipEndPoint, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)<---
+
+ ---> (Inner Exception #3) System.Net.Sockets.SocketException (10051): 向一个无法连接的网络尝试了一个套接字操作。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 )
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.ConnectAsync(SocketsHttpConnectionContext context, IPEndPoint ipEndPoint, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage )
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken )
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-12-21T23:53:46.6402943+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 214.5117 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-12-21T23:53:46.6403696+08:00 [INF]
+FastGithub.HttpServer.HttpReverseProxyMiddleware
+https://ajax.googleapis.com/ => https://gapis.geekzu.org/ajax/
+
+2025-12-21T23:53:49.6934535+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js responded 502 in 3053.0688 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:49.6934567+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css responded 502 in 10088.528 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:49.6981146+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js responded 502 in 8669.4638 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-12-21T23:53:54.6330399+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.vstsusers.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:53:54.7305726+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:54:01.4593121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:54:05.0121933+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+app.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:05.1380106+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:54:06.9407016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2025-12-21T23:54:08.9064051+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+fpt.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:21.4841351+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:21.8588937+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.121.6]
+
+2025-12-21T23:54:22.4532050+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:23.5730038+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+cn.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:28.6805845+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.242, 192.0.80.239, 192.0.80.241]
+
+2025-12-21T23:54:33.5415514+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+assetripper.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:48.4411454+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:50.5064005+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+bruceqi93.github.io@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:52.8161233+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:53.1594523+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.111.154, 185.199.110.154, 185.199.109.154]
+
+2025-12-21T23:54:54.7615689+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+docs.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:54.8575896+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.111.154, 185.199.110.154, 185.199.109.154]
+
+2025-12-21T23:54:56.3836339+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+support-assets.githubassets.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:54:56.4872283+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support-assets.githubassets.com:443->[185.199.111.154, 185.199.110.154, 185.199.109.154]
+
+2025-12-21T23:54:58.6176796+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.225.11.194, 140.82.121.3]
+
+2025-12-21T23:55:00.6528197+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:01.0306846+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:80->[20.205.243.166, 140.82.121.3, 140.82.116.3]
+
+2025-12-21T23:55:03.1729549+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-12-21T23:55:04.6848997+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:04.7800928+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-12-21T23:55:06.5762131+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+objects-origin.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:06.6713582+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-12-21T23:55:08.8277751+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:08.8285752+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.21]
+
+2025-12-21T23:55:10.6775532+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-12-21T23:55:14.8976898+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.25, 140.82.113.25]
+
+2025-12-21T23:55:17.8028330+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.213.50, 13.107.246.73, 13.107.246.74]
+
+2025-12-21T23:55:19.9124702+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+odc.officeapps.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:31.0591702+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.213.45, 13.107.213.50, 13.107.246.62]
+
+2025-12-21T23:55:35.0261902+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.213.50, 13.107.246.57, 13.107.246.74]
+
+2025-12-21T23:55:36.7807238+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+edge-consumer-static.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:36.9106570+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.213.45, 13.107.213.50, 13.107.246.60]
+
+2025-12-21T23:55:40.9732168+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:41.1419608+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.213.50, 13.107.246.40, 13.107.213.40]
+
+2025-12-21T23:55:45.6836340+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[2.16.16.107, 2.18.244.201, 95.100.171.39]
+
+2025-12-21T23:55:50.9058771+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az700632.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:51.3480739+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[193.246.48.105, 193.246.48.11, 2.18.244.201]
+
+2025-12-21T23:55:53.6176813+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.164, 20.190.144.136, 20.190.144.161]
+
+2025-12-21T23:55:59.5527922+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:55:59.9050404+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.144.162, 20.190.148.163, 20.190.144.161]
+
+2025-12-21T23:56:02.0608891+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.182.68.80, 52.217.104.166, 52.217.134.232]
+
+2025-12-21T23:56:04.2027779+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+binstar-cio-packages-prod.s3.amazonaws.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:56:04.8514528+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[52.217.225.81, 54.231.196.129, 16.15.198.160]
+
+2025-12-21T23:56:21.0693274+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+spsprodeus27.vssps.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:56:28.4151704+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.73, 20.189.172.33]
+
+2025-12-21T23:56:29.1806728+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+teofilobd.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.108.153]
+
+2025-12-21T23:56:29.7121586+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+91maketop.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.108.153]
+
+2025-12-21T23:56:35.5358207+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:56:37.2625451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+learnopengl-cn.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.108.153]
+
+2025-12-21T23:56:38.1636344+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:56:40.1671046+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 20.207.73.85, 140.82.121.5]
+
+2025-12-21T23:56:40.5977343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+support.github.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:56:47.9920562+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:56:52.4299857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+assetripper.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.108.153]
+
+2025-12-21T23:56:53.1813249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:56:53.7119061+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bruceqi93.github.io:443->[185.199.109.153, 185.199.111.153, 185.199.108.153]
+
+2025-12-21T23:56:55.4936491+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.108.133, 185.199.110.133, 185.199.109.133]
+
+2025-12-21T23:57:01.3434343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.225.11.194, 140.82.116.3]
+
+2025-12-21T23:57:03.3156814+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2025-12-21T23:57:10.4293689+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.22, 140.82.113.22, 140.82.114.21]
+
+2025-12-21T23:57:12.2138484+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+viewscreen.githubusercontent.com:443->[140.82.114.22, 140.82.113.22, 140.82.114.21]
+
+2025-12-21T23:57:14.0900218+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects-origin.githubusercontent.com:443->[140.82.114.22, 140.82.113.22, 140.82.114.21]
+
+2025-12-21T23:57:17.4199228+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache.azureedge.net:443->[13.107.246.50, 13.107.246.38, 13.107.246.74]
+
+2025-12-21T23:57:19.4131963+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd.azureedge.net:443->[13.107.246.40, 13.107.246.50, 13.107.213.74]
+
+2025-12-21T23:57:25.5862760+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:57:25.9443140+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.9.155.153]
+
+2025-12-21T23:57:27.3207902+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+xpaywalletcdn-prod.azureedge.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:57:27.4693677+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.246.50, 13.107.246.57, 13.107.213.74]
+
+2025-12-21T23:57:28.9370692+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+fp-afd-nocache-ccp.azureedge.net:443->[13.107.213.38, 13.107.246.50, 13.107.246.38]
+
+2025-12-21T23:57:30.4516887+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.213.45, 13.107.213.38, 13.107.246.60]
+
+2025-12-21T23:57:32.4535010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.213.45, 13.107.213.38, 13.107.246.50]
+
+2025-12-21T23:57:33.7056952+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.40, 13.107.213.40, 13.107.246.50]
+
+2025-12-21T23:57:35.0400022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[23.73.2.80, 23.73.2.78, 23.52.42.9]
+
+2025-12-21T23:57:36.8216084+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[96.17.207.24, 23.73.4.75, 23.72.248.200]
+
+2025-12-21T23:57:41.9718818+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+az667904.vo.msecnd.net@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-12-21T23:57:43.7261945+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[193.246.48.105, 193.246.48.11, 23.33.90.80]
+
+2025-12-21T23:57:47.4487884+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[52.217.225.81, 16.15.198.160, 3.5.1.216]
+
+2025-12-21T23:58:19.0232371+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.26, 140.82.114.25]
+
+2025-12-21T23:58:27.1223860+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.15, 13.105.28.1, 20.135.4.173]
+
+2025-12-21T23:58:37.5683119+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[13.107.213.38, 13.107.246.50, 13.107.246.38]
+
+2025-12-21T23:58:41.0878296+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.213.45, 13.107.246.60, 13.107.246.50]
+
+2025-12-21T23:58:44.7142255+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+symbols.nuget.org:443->[23.73.2.80, 23.73.2.78, 184.25.50.99]
+
+2025-12-21T23:58:49.0663091+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[2.16.16.103, 2.16.16.102, 23.33.90.80]
+
+2025-12-21T23:58:51.1171027+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msftauth.net:443->[96.17.207.24, 23.72.248.200, 23.73.4.75]
+
+2025-12-21T23:58:54.8187437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.167, 20.190.144.136, 20.190.144.160]
+
+2025-12-21T23:58:55.7924090+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.148.163, 20.190.144.166, 20.190.144.163]
+
+2025-12-21T23:59:02.7606851+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+s3.amazonaws.com:443->[16.182.68.80, 52.217.227.40, 52.217.134.232]
+
+2025-12-21T23:59:04.9461392+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+binstar-cio-packages-prod.s3.amazonaws.com:443->[16.15.198.160, 3.5.1.216, 52.217.91.140]
+
+2025-12-21T23:59:09.8209754+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dev.azure.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:13.2027624+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:18.8596227+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.v2ex.com:443->[172.66.137.6, 172.66.133.207]
+
+2025-12-21T23:59:21.7237194+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+gapis.geekzu.org:443->[104.21.70.253, 172.67.141.24]
+
+2025-12-21T23:59:23.4526481+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:25.1189539+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+spsprodeus27.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:26.9263440+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+app.vssps.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:28.3936337+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+userprodeus23.vstsusers.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2025-12-21T23:59:32.7193136+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+www.github.com:443->[20.205.243.166, 140.82.121.3, 140.82.114.4]
+
+2025-12-21T23:59:36.3585473+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+cn.gravatar.com:443->[192.0.80.241, 192.0.80.240, 192.0.80.242]
+
+2025-12-21T23:59:54.6524803+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 20.207.73.85, 140.82.121.6]
+
+2025-12-21T23:59:57.8137136+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
