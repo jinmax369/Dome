@@ -1,0 +1,144 @@
+[2024-09-30 22:09:53.328] [I] ***************************************************************
+[2024-09-30 22:09:53.329] [I] Snipaste 2.7.3-Beta x64 (Desktop) (Qt 5.12.6)
+[2024-09-30 22:09:53.329] [I] OS: Windows 10 (10.0) [10.0.19045]
+[2024-09-30 22:09:53.329] [I] Cores: 20
+[2024-09-30 22:09:53.329] [I] Elevated: false
+[2024-09-30 22:09:53.329] [I] Log level: 2
+[2024-09-30 22:09:53.329] [I] Application dir: E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2024-09-30 22:09:53.329] [I] Working dir: E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2024-09-30 22:09:53.329] [I] Config: E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2024-09-30 22:09:53.329] [I] Library paths: (E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64)
+[2024-09-30 22:09:53.329] [I] Screen scale: 1
+[2024-09-30 22:09:53.329] [I] Retina factor: 1
+[2024-09-30 22:09:53.329] [I] Screens: 2
+[2024-09-30 22:09:53.329] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2024-09-30 22:09:53.329] [I]     QRect(-1080, -335, 1080 x 1920), DPI = 96 , DPR = 1
+[2024-09-30 22:09:53.338] [I] Desktops: 1
+[2024-09-30 22:09:53.338] [I] OpenGL support: true
+[2024-09-30 22:09:53.521] [I] About to import settings from: E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2024-09-30 22:09:53.522] [I] Settings imported
+[2024-09-30 22:09:53.523] [I] Breakpad initialized
+[2024-09-30 22:09:53.524] [I] Process priority: 1
+[2024-09-30 22:09:53.525] [I] Initializing Snipaste...
+[2024-09-30 22:09:53.767] [I] Prefetch...
+[2024-09-30 22:09:53.772] [I] Preloaded 20 files: 6 ms
+[2024-09-30 22:09:53.790] [I] Load default ssl configuration: 22 ms
+[2024-09-30 22:09:53.795] [I] About to apply settings...
+[2024-09-30 22:09:53.817] [I] Settings applied
+[2024-09-30 22:09:53.822] [I] Log level set to: 2
+[2024-09-30 22:09:53.837] [I] History dir: E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/history
+[2024-09-30 22:09:53.837] [W] Failed to open history file "E:/BaiduNetdiskDownload/【材料】Pose核心课程-先导篇/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/history/.sp0" for reading
+[2024-09-30 22:09:53.837] [I] Add group
+[2024-09-30 22:09:53.935] [I] Request to switch to group 0
+[2024-09-30 22:09:54.083] [I] About to restore pasters...
+[2024-09-30 22:09:54.083] [I] Group 0 [QWANRM]: "默认"
+[2024-09-30 22:09:54.083] [I] Record version: 193
+[2024-09-30 22:09:54.083] [I] To restore: 0
+[2024-09-30 22:09:54.083] [I] Pasters touched
+[2024-09-30 22:09:54.083] [I] All pasters activated: true
+[2024-09-30 22:09:54.106] [I] Unref images: 0 (0 removed)
+[2024-09-30 22:09:54.106] [I] Unref dirs: 0 (0 removed)
+[2024-09-30 22:09:54.106] [I] Empty history info files: 0 (0 removed)
+[2024-09-30 22:09:54.106] [I] Pasters restored
+[2024-09-30 22:09:54.107] [I] Launch time: 779 ms
+[2024-09-30 22:09:59.082] [I] Parsing command arguments [0]: (sp, snip)
+[2024-09-30 22:09:59.122] [I] Snip request: 0 (dest: 0)
+[2024-09-30 22:09:59.122] [I] Snipper: preparing...
+[2024-09-30 22:09:59.129] [I] Desktop: QRect(-1080, -335, 3000 x 1920)
+[2024-09-30 22:09:59.204] [I] Background size: QSize(3000, 1920)
+[2024-09-30 22:09:59.204] [I] Screens: 2
+[2024-09-30 22:09:59.204] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2024-09-30 22:09:59.204] [I]     QRect(-1080, -335, 1080 x 1920), DPI = 96 , DPR = 1
+[2024-09-30 22:09:59.232] [I] Focus set
+[2024-09-30 22:09:59.252] [I] Snipper: preparation done (0)
+[2024-09-30 22:09:59.252] [I] Snipper: about to appear...
+[2024-09-30 22:09:59.252] [I] Snipper: prepare to show...
+[2024-09-30 22:09:59.257] [I] Snipper: shown
+[2024-09-30 22:09:59.286] [I] Snipper: focus in
+[2024-09-30 22:09:59.289] [I] Snipper: ready [0.164 s]
+[2024-09-30 22:09:59.376] [W] QWindowsWindow::setGeometry: Unable to set geometry 154x184+1753+829 (frame: 154x184+1753+829) on QWidgetWindow/"magnifierWindow" on "\\.\DISPLAY1". Resulting geometry: 154x190+1753+829 (frame: 154x190+1753+829) margins: 0, 0, 0, 0 minimum size: 154x184 maximum size: 154x16777215 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=154,184 maxtrack=154,0)
+[2024-09-30 22:10:08.458] [I] Screenshot (971, 144, 482 x 614) destination: pin, 
+[2024-09-30 22:10:08.459] [I] Paste image: QPoint(971, 144)
+[2024-09-30 22:10:08.521] [I] Screenshot successfully saved: pin, 
+[2024-09-30 22:10:08.614] [I] Snipper: about to quit...
+[2024-09-30 22:10:08.773] [I] Snipper: focus out [3] (Foreground window: Paster - Snipaste)
+[2024-09-30 22:10:08.774] [I] Snipper: hidden
+[2024-09-30 22:10:08.775] [I] Snipper: quit
+[2024-09-30 22:10:08.960] [I] Snipper: scene saved
+[2024-09-30 22:10:54.692] [I] Silent feed checking finished
+[2024-09-30 22:10:54.692] [I] New version available: 2.10.2
+[2024-09-30 22:19:53.828] [I] Preloaded 20 files: 5 ms [every 10.0 m]
+[2024-09-30 22:31:04.209] [I] Parsing command arguments [0]: (sp, show-tray-menu)
+[2024-09-30 22:31:05.652] [I] Quit from tray menu
+[2024-09-30 22:31:05.766] [I] Snipaste: normal exit
+[2024-09-30 22:31:05.766] [I] Snipper: destructed
+[2024-09-30 22:31:06.070] [I] Exit: 0
+
+
+[2025-12-28 15:14:10.177] [I] ***************************************************************
+[2025-12-28 15:14:10.177] [I] Snipaste 2.7.3-Beta x64 (Desktop) (Qt 5.12.6)
+[2025-12-28 15:14:10.177] [I] OS: Windows 10 (10.0) [10.0.19045]
+[2025-12-28 15:14:10.177] [I] Cores: 16
+[2025-12-28 15:14:10.177] [I] Elevated: true
+[2025-12-28 15:14:10.177] [I] Log level: 2
+[2025-12-28 15:14:10.177] [I] Application dir: H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2025-12-28 15:14:10.177] [I] Working dir: H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2025-12-28 15:14:10.177] [I] Config: H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2025-12-28 15:14:10.177] [I] Library paths: (H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64)
+[2025-12-28 15:14:10.177] [I] Screen scale: 1
+[2025-12-28 15:14:10.177] [I] Retina factor: 1
+[2025-12-28 15:14:10.178] [I] Screens: 2
+[2025-12-28 15:14:10.178] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-28 15:14:10.178] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-28 15:14:10.184] [I] Desktops: 1
+[2025-12-28 15:14:10.184] [I] OpenGL support: true
+[2025-12-28 15:14:10.262] [I] About to import settings from: H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2025-12-28 15:14:10.776] [I] Settings imported
+[2025-12-28 15:14:10.777] [I] Breakpad initialized
+[2025-12-28 15:14:10.803] [I] Process priority: 1
+[2025-12-28 15:14:10.803] [I] Initializing Snipaste...
+[2025-12-28 15:14:10.991] [I] Prefetch...
+[2025-12-28 15:14:11.001] [I] Load default ssl configuration: 10 ms
+[2025-12-28 15:14:11.137] [I] Preloaded 20 files: 146 ms
+[2025-12-28 15:14:11.140] [I] About to apply settings...
+[2025-12-28 15:14:11.163] [I] Settings applied
+[2025-12-28 15:14:11.167] [I] Log level set to: 2
+[2025-12-28 15:14:11.178] [I] History dir: H:/111/配套/配套/配套/精致动画课件_璇子/精致动画课件_璇子/【先导篇】课程素材-软件插件/必备软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/history
+[2025-12-28 15:14:11.192] [I] Header version: 193
+[2025-12-28 15:14:11.192] [I] About to restore pasters...
+[2025-12-28 15:14:11.192] [I] Group 0 [QWANRM]: "默认"
+[2025-12-28 15:14:11.192] [I] Record version: 193
+[2025-12-28 15:14:11.192] [I] To restore: 0
+[2025-12-28 15:14:11.192] [I] Pasters touched
+[2025-12-28 15:14:11.192] [I] All pasters activated: true
+[2025-12-28 15:14:11.377] [I] Unref images: 0 (0 removed)
+[2025-12-28 15:14:11.377] [I] Unref dirs: 0 (0 removed)
+[2025-12-28 15:14:11.378] [I] Empty history info files: 0 (0 removed)
+[2025-12-28 15:14:11.378] [I] Pasters restored
+[2025-12-28 15:14:11.378] [I] Launch time: 1201 ms
+[2025-12-28 15:14:22.251] [I] Parsing command arguments [0]: (sp, snip)
+[2025-12-28 15:14:22.251] [I] Snip request: 0 (dest: 0)
+[2025-12-28 15:14:22.251] [I] Snipper: preparing...
+[2025-12-28 15:14:22.251] [I] Desktop: QRect(0, 0, 3840 x 1080)
+[2025-12-28 15:14:22.301] [I] Background size: QSize(3840, 1080)
+[2025-12-28 15:14:22.301] [I] Screens: 2
+[2025-12-28 15:14:22.301] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-28 15:14:22.301] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-28 15:14:22.310] [I] Focus set
+[2025-12-28 15:14:22.311] [I] Snipper: preparation done (0)
+[2025-12-28 15:14:22.311] [I] Snipper: about to appear...
+[2025-12-28 15:14:22.311] [I] Snipper: prepare to show...
+[2025-12-28 15:14:22.312] [I] Snipper: shown
+[2025-12-28 15:14:22.322] [I] Snipper: focus in
+[2025-12-28 15:14:22.323] [I] Snipper: ready [0.07100000000000001 s]
+[2025-12-28 15:14:28.618] [I] Screenshot (626, 297, 670 x 110) destination: none
+[2025-12-28 15:14:28.618] [I] Snipper: about to quit...
+[2025-12-28 15:14:28.622] [I] Snipper: focus out [3] (Foreground window: Snipper - Snipaste)
+[2025-12-28 15:14:28.633] [I] Snipper: hidden
+[2025-12-28 15:14:28.633] [I] Snipper: quit
+[2025-12-28 15:15:23.418] [W] Feed error: 下载更新源失败。
+网络错误：Operation canceled
+[2025-12-28 15:15:24.509] [I] Silent feed checking finished
+[2025-12-28 15:15:24.509] [I] New version available: 2.11.2
+[2025-12-28 15:26:41.177] [I] Preloaded 20 files: 4 ms [every 12.5 m]
+[2025-12-28 15:42:19.179] [I] Preloaded 20 files: 4 ms [every 15.6 m]
