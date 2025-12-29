@@ -142,3 +142,148 @@
 [2025-12-28 15:15:24.509] [I] New version available: 2.11.2
 [2025-12-28 15:26:41.177] [I] Preloaded 20 files: 4 ms [every 12.5 m]
 [2025-12-28 15:42:19.179] [I] Preloaded 20 files: 4 ms [every 15.6 m]
+[2025-12-29 10:31:29.227] [I] ***************************************************************
+[2025-12-29 10:31:29.228] [I] Snipaste 2.7.3-Beta x64 (Desktop) (Qt 5.12.6)
+[2025-12-29 10:31:29.228] [I] OS: Windows 10 (10.0) [10.0.19045]
+[2025-12-29 10:31:29.228] [I] Cores: 16
+[2025-12-29 10:31:29.228] [I] Elevated: true
+[2025-12-29 10:31:29.228] [I] Log level: 2
+[2025-12-29 10:31:29.228] [I] Application dir: G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2025-12-29 10:31:29.228] [I] Working dir: G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64
+[2025-12-29 10:31:29.228] [I] Config: G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2025-12-29 10:31:29.228] [I] Library paths: (G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64)
+[2025-12-29 10:31:29.228] [I] Screen scale: 1
+[2025-12-29 10:31:29.228] [I] Retina factor: 1
+[2025-12-29 10:31:29.228] [I] Screens: 2
+[2025-12-29 10:31:29.228] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:31:29.228] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:31:29.235] [I] Desktops: 1
+[2025-12-29 10:31:29.235] [I] OpenGL support: true
+[2025-12-29 10:31:29.358] [I] About to import settings from: G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/config.ini
+[2025-12-29 10:31:29.755] [I] Settings imported
+[2025-12-29 10:31:29.756] [I] Breakpad initialized
+[2025-12-29 10:31:29.782] [I] Process priority: 1
+[2025-12-29 10:31:29.782] [I] Initializing Snipaste...
+[2025-12-29 10:31:29.984] [I] Prefetch...
+[2025-12-29 10:31:29.995] [I] Load default ssl configuration: 11 ms
+[2025-12-29 10:31:30.075] [I] Preloaded 20 files: 91 ms
+[2025-12-29 10:31:30.079] [I] About to apply settings...
+[2025-12-29 10:31:30.104] [I] Settings applied
+[2025-12-29 10:31:30.108] [I] Log level set to: 2
+[2025-12-29 10:31:30.124] [I] History dir: G:/Dome/美术作品/软件/超好用的截屏绘图Snipaste-2.7.3-Beta-x64/history
+[2025-12-29 10:31:30.126] [I] Header version: 193
+[2025-12-29 10:31:30.126] [I] About to restore pasters...
+[2025-12-29 10:31:30.126] [I] Group 0 [QWANRM]: "默认"
+[2025-12-29 10:31:30.126] [I] Record version: 193
+[2025-12-29 10:31:30.126] [I] To restore: 0
+[2025-12-29 10:31:30.126] [I] Pasters touched
+[2025-12-29 10:31:30.126] [I] All pasters activated: true
+[2025-12-29 10:31:30.157] [I] Unref images: 0 (0 removed)
+[2025-12-29 10:31:30.157] [I] Unref dirs: 0 (0 removed)
+[2025-12-29 10:31:30.157] [I] Empty history info files: 0 (0 removed)
+[2025-12-29 10:31:30.157] [I] Pasters restored
+[2025-12-29 10:31:30.158] [I] Launch time: 930 ms
+[2025-12-29 10:31:54.586] [I] Parsing command arguments [0]: (sp, snip)
+[2025-12-29 10:31:54.586] [I] Snip request: 0 (dest: 0)
+[2025-12-29 10:31:54.586] [I] Snipper: preparing...
+[2025-12-29 10:31:54.586] [I] Desktop: QRect(0, 0, 3840 x 1080)
+[2025-12-29 10:31:54.637] [I] Background size: QSize(3840, 1080)
+[2025-12-29 10:31:54.637] [I] Screens: 2
+[2025-12-29 10:31:54.637] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:31:54.637] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:31:54.641] [I] Focus set
+[2025-12-29 10:31:54.642] [I] Snipper: preparation done (0)
+[2025-12-29 10:31:54.642] [I] Snipper: about to appear...
+[2025-12-29 10:31:54.642] [I] Snipper: prepare to show...
+[2025-12-29 10:31:54.645] [I] Snipper: shown
+[2025-12-29 10:31:54.657] [I] Snipper: focus in
+[2025-12-29 10:31:54.657] [I] Snipper: ready [0.07100000000000001 s]
+[2025-12-29 10:31:57.618] [I] Snipper: focus out [3] (Foreground window: Snipaste)
+[2025-12-29 10:31:57.800] [I] Snipper: focus in
+[2025-12-29 10:31:59.003] [I] Screenshot (46, 127, 1658 x 791) destination: none
+[2025-12-29 10:31:59.003] [I] Snipper: about to quit...
+[2025-12-29 10:31:59.005] [I] Snipper: focus out [3] (Foreground window: Snipper - Snipaste)
+[2025-12-29 10:31:59.014] [I] Snipper: hidden
+[2025-12-29 10:31:59.015] [I] Snipper: quit
+[2025-12-29 10:32:08.631] [I] Parsing command arguments [1]: (sp, snip)
+[2025-12-29 10:32:08.631] [I] Snip request: 0 (dest: 0)
+[2025-12-29 10:32:08.631] [I] Snipper: preparing...
+[2025-12-29 10:32:08.631] [I] Desktop: QRect(0, 0, 3840 x 1080)
+[2025-12-29 10:32:08.673] [I] Background size: QSize(3840, 1080)
+[2025-12-29 10:32:08.673] [I] Screens: 2
+[2025-12-29 10:32:08.673] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:32:08.673] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:32:08.687] [I] Focus set
+[2025-12-29 10:32:08.687] [I] Snipper: preparation done (0)
+[2025-12-29 10:32:08.688] [I] Snipper: about to appear...
+[2025-12-29 10:32:08.688] [I] Snipper: prepare to show...
+[2025-12-29 10:32:08.691] [I] Snipper: shown
+[2025-12-29 10:32:08.703] [I] Snipper: focus in
+[2025-12-29 10:32:08.703] [I] Snipper: ready [0.073 s]
+[2025-12-29 10:32:14.136] [I] Snipper: focus out [3] (Foreground window: Snipaste)
+[2025-12-29 10:32:14.650] [I] Snipper: focus in
+[2025-12-29 10:32:15.632] [I] Snipper: focus out [3] (Foreground window: Snipaste)
+[2025-12-29 10:32:16.266] [I] Snipper: focus in
+[2025-12-29 10:32:17.312] [I] Snipper: focus out [3] (Foreground window: Snipaste)
+[2025-12-29 10:32:19.821] [I] Snipper: focus in
+[2025-12-29 10:32:19.821] [I] Screenshot (46, 913, 1873 x 55) destination: none
+[2025-12-29 10:32:19.821] [I] Snipper: about to quit...
+[2025-12-29 10:32:19.825] [I] Snipper: focus out [3] (Foreground window: Snipper - Snipaste)
+[2025-12-29 10:32:19.829] [I] Snipper: hidden
+[2025-12-29 10:32:19.830] [I] Snipper: quit
+[2025-12-29 10:32:21.496] [I] Parsing command arguments [1]: (sp, snip)
+[2025-12-29 10:32:21.496] [I] Snip request: 0 (dest: 0)
+[2025-12-29 10:32:21.496] [I] Snipper: preparing...
+[2025-12-29 10:32:21.496] [I] Desktop: QRect(0, 0, 3840 x 1080)
+[2025-12-29 10:32:21.544] [I] Background size: QSize(3840, 1080)
+[2025-12-29 10:32:21.544] [I] Screens: 2
+[2025-12-29 10:32:21.544] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:32:21.544] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:32:21.575] [I] Focus set
+[2025-12-29 10:32:21.575] [I] Snipper: preparation done (0)
+[2025-12-29 10:32:21.576] [I] Snipper: about to appear...
+[2025-12-29 10:32:21.576] [I] Snipper: prepare to show...
+[2025-12-29 10:32:21.578] [I] Snipper: shown
+[2025-12-29 10:32:21.592] [I] Snipper: focus in
+[2025-12-29 10:32:21.592] [I] Snipper: ready [0.096 s]
+[2025-12-29 10:32:26.500] [I] Screenshot (61, 924, 1847 x 50) destination: pin, 
+[2025-12-29 10:32:26.500] [I] Paste image: QPoint(61, 924)
+[2025-12-29 10:32:26.513] [I] Screenshot successfully saved: pin, 
+[2025-12-29 10:32:26.530] [I] Snipper: about to quit...
+[2025-12-29 10:32:26.555] [I] Snipper: focus out [3] (Foreground window: Paster - Snipaste)
+[2025-12-29 10:32:26.555] [I] Snipper: hidden
+[2025-12-29 10:32:26.556] [I] Snipper: quit
+[2025-12-29 10:32:27.119] [I] Snipper: scene saved
+[2025-12-29 10:32:31.137] [I] Silent feed checking finished
+[2025-12-29 10:32:31.137] [I] New version available: 2.11.2
+[2025-12-29 10:34:19.931] [I] Parsing command arguments [1]: (sp, paste)
+[2025-12-29 10:34:47.285] [I] Parsing command arguments [0]: (sp, snip)
+[2025-12-29 10:34:47.285] [I] Snip request: 0 (dest: 0)
+[2025-12-29 10:34:47.285] [I] Snipper: preparing...
+[2025-12-29 10:34:47.285] [I] Desktop: QRect(0, 0, 3840 x 1080)
+[2025-12-29 10:34:47.337] [I] Background size: QSize(3840, 1080)
+[2025-12-29 10:34:47.337] [I] Screens: 2
+[2025-12-29 10:34:47.337] [I]     QRect(0, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:34:47.337] [I]     QRect(1920, 0, 1920 x 1080), DPI = 96 , DPR = 1
+[2025-12-29 10:34:47.349] [I] Focus set
+[2025-12-29 10:34:47.349] [I] Snipper: preparation done (0)
+[2025-12-29 10:34:47.350] [I] Snipper: about to appear...
+[2025-12-29 10:34:47.350] [I] Snipper: prepare to show...
+[2025-12-29 10:34:47.353] [I] Snipper: shown
+[2025-12-29 10:34:47.366] [I] Snipper: focus in
+[2025-12-29 10:34:47.366] [I] Snipper: ready [0.081 s]
+[2025-12-29 10:34:48.941] [I] Snipper: focus out [3] (Foreground window: Snipaste)
+[2025-12-29 10:34:50.312] [I] Snipper: focus in
+[2025-12-29 10:34:50.312] [I] Screenshot (1723, 1000, 40 x 40) destination: none
+[2025-12-29 10:34:50.312] [I] Snipper: about to quit...
+[2025-12-29 10:34:50.316] [I] Snipper: focus out [3] (Foreground window: Snipper - Snipaste)
+[2025-12-29 10:34:50.330] [I] Snipper: hidden
+[2025-12-29 10:34:50.330] [I] Snipper: quit
+[2025-12-29 10:34:52.165] [I] Parsing command arguments [0]: (sp, show-tray-menu)
+[2025-12-29 10:51:02.234] [I] Preloaded 20 files: 4 ms [every 19.5 m]
+[2025-12-29 11:15:27.324] [I] Preloaded 20 files: 4 ms [every 24.4 m]
+[2025-12-29 11:45:27.382] [I] Preloaded 20 files: 5 ms [every 30.0 m]
+[2025-12-29 12:15:27.415] [I] Preloaded 20 files: 4 ms [every 30.0 m]
+[2025-12-29 12:45:27.445] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2025-12-29 12:53:42.554] [I] Snipaste: normal exit
+[2025-12-29 12:53:42.554] [I] Snipper: destructed
